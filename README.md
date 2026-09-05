@@ -153,6 +153,4 @@ No se redistribuyen en este repositorio materiales protegidos cuya licencia no p
 
 ## Autor
 
-**Dr. Samuel Efrén Viñas Álvarez**  
-Maestría en Sistemas Computacionales  
-Tecnológico Nacional de México
+**Samuel Efrén Viñas Álvarez**  
