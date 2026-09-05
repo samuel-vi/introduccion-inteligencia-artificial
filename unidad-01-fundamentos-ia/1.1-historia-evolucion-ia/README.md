@@ -96,3 +96,244 @@ Por ejemplo:
 SI temperatura_alta
 Y humo_detectado
 ENTONCES posible_incendio
+```
+
+El sistema utiliza reglas para manipular representaciones simbólicas y obtener nuevas conclusiones.
+
+Este paradigma tuvo una gran influencia en el desarrollo de sistemas de razonamiento, representación del conocimiento y sistemas expertos.
+
+---
+
+## 6. Sistemas expertos
+
+Durante las décadas de 1970 y 1980 tuvieron un importante desarrollo los **sistemas expertos**.
+
+Estos sistemas buscaban representar el conocimiento especializado de una persona experta mediante dos componentes principales:
+
+**Base de conocimiento + Motor de inferencia**
+
+Entre los sistemas históricos más conocidos se encuentran:
+
+### DENDRAL
+
+Sistema desarrollado para apoyar el análisis de estructuras químicas.
+
+### MYCIN
+
+Sistema orientado al apoyo del diagnóstico de determinadas infecciones bacterianas y la recomendación de tratamientos.
+
+Los sistemas expertos demostraron la importancia del conocimiento especializado del dominio para resolver problemas complejos.
+
+---
+
+## 7. Limitaciones de los primeros enfoques
+
+Los primeros sistemas de IA encontraron diferentes dificultades.
+
+Entre las principales se encuentran:
+
+a) Crecimiento acelerado del número de posibles soluciones
+
+b) Dificultad para representar problemas del mundo real
+
+c) Complejidad para adquirir conocimiento de especialistas
+
+d) Mantenimiento difícil de grandes bases de reglas
+
+e) Información incompleta o incierta
+
+f) Capacidad computacional limitada
+
+Un concepto especialmente importante fue la **explosión combinatoria**, que ocurre cuando el número de alternativas posibles crece tan rápidamente que resulta impráctico analizarlas todas.
+
+---
+
+## 8. Los inviernos de la Inteligencia Artificial
+
+Las elevadas expectativas sobre las capacidades de la IA no siempre pudieron cumplirse.
+
+Como consecuencia se produjeron periodos de disminución de financiamiento, interés e inversión conocidos como:
+
+**Inviernos de la Inteligencia Artificial**
+
+Estos periodos permiten observar un patrón que ha aparecido varias veces en la historia de la disciplina:
+
+**Grandes expectativas → Limitaciones tecnológicas → Desilusión → Nuevos avances**
+
+El estudio de estos ciclos permite analizar de manera crítica las expectativas actuales en torno a las nuevas tecnologías de IA.
+
+---
+
+## 9. Del conocimiento programado al aprendizaje a partir de datos
+
+Una transformación importante ocurrió cuando comenzaron a utilizarse con mayor intensidad métodos capaces de aprender patrones directamente a partir de datos.
+
+En un sistema tradicional basado en reglas:
+
+**Conocimiento humano → Reglas → Programa**
+
+En Machine Learning:
+
+**Datos → Algoritmo de aprendizaje → Modelo**
+
+Por ejemplo, un sistema de detección de correo no deseado puede aprender patrones utilizando grandes cantidades de mensajes previamente clasificados.
+
+Este cambio favoreció el desarrollo del **aprendizaje automático o Machine Learning**.
+
+---
+
+## 10. Redes neuronales y Deep Learning
+
+Las redes neuronales artificiales tienen antecedentes desde las primeras etapas de la IA, pero su utilización aumentó considerablemente gracias a diferentes avances tecnológicos.
+
+Entre ellos:
+
+a) Mayor disponibilidad de datos
+
+b) Incremento de la capacidad computacional
+
+c) Desarrollo de unidades de procesamiento gráfico o GPU
+
+d) Mejora de los algoritmos de entrenamiento
+
+e) Disponibilidad de grandes conjuntos de datos
+
+Estas condiciones contribuyeron al crecimiento del **Deep Learning**.
+
+Las redes neuronales profundas permitieron avances importantes en áreas como:
+
+a) Visión por computadora
+
+b) Reconocimiento de voz
+
+c) Procesamiento del lenguaje natural
+
+d) Robótica
+
+e) Medicina
+
+f) Juegos
+
+---
+
+## 11. Deep Blue y AlphaGo
+
+Dos acontecimientos permiten observar diferentes etapas de la evolución de la IA.
+
+### Deep Blue
+
+En 1997, el sistema **Deep Blue**, desarrollado por IBM, derrotó al campeón mundial de ajedrez Garry Kasparov.
+
+Su funcionamiento se apoyaba principalmente en:
+
+**Búsqueda + Evaluación de posiciones + Capacidad computacional**
+
+Deep Blue no utilizaba Deep Learning como los sistemas actuales.
+
+### AlphaGo
+
+En 2016, **AlphaGo**, desarrollado por DeepMind, derrotó al jugador profesional Lee Sedol en el juego de Go.
+
+AlphaGo integró diferentes técnicas, entre ellas:
+
+**Redes neuronales + Aprendizaje + Búsqueda**
+
+Este caso muestra que las técnicas modernas de IA pueden combinar métodos desarrollados en diferentes etapas históricas.
+
+---
+
+## 12. Inteligencia Artificial generativa
+
+Una etapa reciente de la evolución de la IA corresponde al desarrollo de sistemas capaces de generar contenido.
+
+Estos sistemas pueden producir:
+
+a) Texto
+
+b) Imágenes
+
+c) Audio
+
+d) Video
+
+e) Código
+
+A diferencia de un sistema orientado únicamente a clasificar una entrada, un modelo generativo puede producir nuevo contenido a partir de instrucciones, datos o representaciones aprendidas.
+
+La IA generativa constituye actualmente una de las áreas de mayor desarrollo dentro de la Inteligencia Artificial.
+
+---
+
+## 13. La evolución de la IA no es lineal
+
+Es importante evitar interpretar la evolución de la IA como una simple secuencia en la que una tecnología sustituye completamente a la anterior.
+
+No debe entenderse únicamente como:
+
+**IA simbólica → Machine Learning → Deep Learning → IA generativa**
+
+Actualmente continúan utilizándose técnicas desarrolladas en diferentes etapas históricas, entre ellas:
+
+a) Representación simbólica
+
+b) Reglas
+
+c) Búsqueda
+
+d) Lógica
+
+e) Probabilidad
+
+f) Optimización
+
+g) Machine Learning
+
+h) Deep Learning
+
+i) Aprendizaje por refuerzo
+
+j) Métodos híbridos
+
+Por ello, la evolución de la IA puede entenderse mejor como el desarrollo y la integración progresiva de diferentes paradigmas.
+
+---
+
+## Síntesis
+
+La historia de la Inteligencia Artificial muestra diferentes formas de abordar el problema de construir sistemas capaces de realizar tareas asociadas con la inteligencia.
+
+Entre sus principales etapas se encuentran:
+
+**Razonamiento formal → IA simbólica → Sistemas expertos → Machine Learning → Deep Learning → IA generativa**
+
+Sin embargo, estas etapas no representan una sustitución absoluta de los enfoques anteriores.
+
+Las técnicas desarrolladas a lo largo de la historia continúan coexistiendo y pueden integrarse para resolver problemas complejos.
+
+> **La historia de la Inteligencia Artificial es también la historia de diferentes formas de representar conocimiento, aprender, razonar y resolver problemas.**
+
+---
+
+## Recursos del subtema
+
+Los siguientes materiales complementan el contenido de este subtema:
+
+[Recursos y lecturas](recursos/)
+
+[Línea de tiempo de la Inteligencia Artificial](recursos/linea-tiempo.md)
+
+[Actividad de reflexión](actividades/actividad-reflexion.md)
+
+---
+
+## Fuentes base
+
+Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
+
+Turing, A. M. (1950). Computing Machinery and Intelligence. *Mind, 59*(236), 433–460.
+
+McCarthy, J., Minsky, M. L., Rochester, N., & Shannon, C. E. (1955). *A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence*.
+
+---
+
+[← Volver a la Unidad 1](../)
