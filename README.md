@@ -1,86 +1,158 @@
-# introduccion-inteligencia-artificial
-Material académico, prácticas, notebooks y recursos de apoyo para la asignatura Introducción a la Inteligencia Artificial
+# Introducción a la Inteligencia Artificial
+
+Repositorio académico de apoyo para la asignatura **Introducción a la Inteligencia Artificial** de la **Maestría en Sistemas Computacionales**.
+
+## Propósito
+
+Este repositorio reúne materiales académicos, ejemplos, prácticas de programación, notebooks, datasets y recursos complementarios utilizados durante el curso.
+
+Su propósito es facilitar el estudio, comprensión y aplicación de los principales fundamentos, métodos y técnicas de la Inteligencia Artificial, integrando aspectos teóricos y prácticos.
+
+---
 
 ## Contenido del curso
 
-### Unidad 1. Fundamentos de la Inteligencia Artificial
+| Unidad | Tema |
+|---|---|
+| 1 | [Fundamentos de la Inteligencia Artificial](unidad-01-fundamentos-ia/) |
+| 2 | [Modelado y planteamiento de problemas](unidad-02-modelado-problemas/) |
+| 3 | [Representación del conocimiento y razonamiento](unidad-03-representacion-conocimiento/) |
+| 4 | [Aprendizaje automático](unidad-04-aprendizaje-automatico/) |
+| 5 | [Modelos probabilistas y cómputo suave](unidad-05-modelos-probabilistas/) |
+| 6 | [Análisis de grupos y clustering](unidad-06-clustering/) |
+| 7 | [Aplicaciones actuales de la Inteligencia Artificial](unidad-07-aplicaciones-ia/) |
+| 8 | [Ética y aspectos sociales de la Inteligencia Artificial](unidad-08-etica-ia/) |
 
-**Objetivo:** Comprender los principios históricos, filosóficos y técnicos de la Inteligencia Artificial.
+Cada unidad contiene su objetivo, descripción, subtemas y recursos específicos.
 
-- 1.1 Breve historia y evolución de la IA: de los sistemas expertos al deep learning
-- 1.2 Definiciones y enfoques: simbolismo, conexionismo y enfoque estadístico
-- 1.3 Componentes principales de un agente inteligente
-- 1.4 Clasificación de la IA: débil vs. fuerte, general vs. específica
-- 1.5 Arquitecturas clásicas: Soar y ACT-R, y modernas: agentes BDI e híbridos
+---
 
-### Unidad 2. Modelado y planteamiento de problemas
+## Organización del repositorio
 
-**Objetivo:** Desarrollar habilidades para identificar, formular y representar problemas susceptibles de ser abordados mediante IA, definiendo sus entradas, salidas, restricciones y criterios de solución, así como aplicar métodos clásicos de búsqueda, planificación, satisfacibilidad y búsqueda adversarial para su resolución.
+El repositorio se organiza por unidades temáticas. Conforme avance el curso se incorporarán:
 
-- 2.1 Formulación de problemas para IA
-- 2.2 Espacios de estado y operadores
-- 2.3 Búsqueda no informada
-- 2.4 Búsqueda informada
-- 2.5 Planificación automática
-- 2.6 Juegos y adversarios
-- 2.7 Satisfacibilidad
+a) Notebooks desarrollados en Python
 
-### Unidad 3. Representación del conocimiento y razonamiento
+b) Prácticas para Google Colab
 
-**Objetivo:** Estudiar formas estructuradas de representar conocimiento.
+c) Ejemplos de algoritmos de Inteligencia Artificial
 
-- 3.1 Lógica proposicional y lógica de primer orden
-- 3.2 Redes semánticas, marcos y ontologías (OWL)
-- 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
-- 3.4 Razonamiento no monótono e incierto
-- 3.5 Ontologías en la Web Semántica y grafos de conocimiento
+d) Datasets para actividades académicas
 
-### Unidad 4. Aprendizaje automático (Machine Learning)
+e) Código fuente de apoyo
 
-**Objetivo:** Introducir los fundamentos y paradigmas del aprendizaje automático.
+f) Material complementario
 
-- 4.1 Diferencia entre aprendizaje simbólico, estadístico y conexionista
-- 4.2 Tipos de aprendizaje: supervisado, no supervisado y por refuerzo
-- 4.3 Algoritmos clásicos: regresión logística, Naive Bayes y SVM
-- 4.4 Introducción a redes neuronales y perceptrón multicapa (MLP)
-- 4.5 Validación cruzada, overfitting y selección de modelos
+g) Actividades de aprendizaje
 
-### Unidad 5. Modelos probabilistas y cómputo suave
+h) Recursos de consulta
 
-**Objetivo:** Aplicar modelos basados en incertidumbre.
+---
 
-- 5.1 Teoría de la probabilidad aplicada a IA
-- 5.2 Redes bayesianas: estructura y razonamiento probabilista
-- 5.3 Inferencia y aprendizaje en redes bayesianas
-- 5.4 Cómputo evolutivo y algoritmos genéticos
-- 5.5 Lógica difusa y sistemas difusos en IA aplicada
+## Herramientas y tecnologías
 
-### Unidad 6. Análisis de grupos y clustering
+Durante el curso podrán utilizarse herramientas, lenguajes y bibliotecas como:
 
-**Objetivo:** Explorar métodos no supervisados para segmentación de datos.
+a) Python
 
-- 6.1 Medidas de similitud y distancia
-- 6.2 K-means, DBSCAN y clustering jerárquico
-- 6.3 Detección de outliers y validación de clusters
-- 6.4 Visualización de clusters: t-SNE y PCA
-- 6.5 Aplicaciones: segmentación de clientes y patrones de comportamiento
+b) Jupyter Notebook
 
-### Unidad 7. Aplicaciones actuales de la Inteligencia Artificial
+c) Google Colab
 
-**Objetivo:** Conocer aplicaciones prácticas y emergentes.
+d) NumPy
 
-- 7.1 IA en visión por computadora, lenguaje natural y robótica
-- 7.2 IA en salud, finanzas, educación, gobierno y justicia
-- 7.3 Chatbots, asistentes virtuales y modelos generativos
-- 7.4 Plataformas de desarrollo: TensorFlow, PyTorch y OpenAI API
-- 7.5 Tendencias: IA generativa, IA explicable (XAI) e IA responsable
+e) Pandas
 
-### Unidad 8. Ética y aspectos sociales de la IA
+f) Matplotlib
 
-**Objetivo:** Analizar el impacto social, ético y legal de la Inteligencia Artificial.
+g) Scikit-learn
 
-- 8.1 Sesgo algorítmico y justicia en la IA
-- 8.2 Privacidad, vigilancia y toma de decisiones automatizadas
-- 8.3 IA explicable, interpretable y responsable
-- 8.4 Marcos regulatorios: Unión Europea, Estados Unidos y México
-- 8.5 Perspectivas sobre IA general y riesgos existenciales
+h) TensorFlow
+
+i) Keras
+
+j) PyTorch
+
+k) Git y GitHub
+
+Las herramientas utilizadas dependerán de los contenidos y actividades de cada unidad.
+
+---
+
+## Bibliografía base
+
+Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
+
+Poole, D. L., & Mackworth, A. K. (2023). *Artificial Intelligence: Foundations of Computational Agents* (3rd ed.). Cambridge University Press.
+
+Mitchell, T. M. (1997). *Machine Learning*. McGraw-Hill.
+
+Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+
+Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). *Mathematics for Machine Learning*. Cambridge University Press.
+
+Flach, P. (2012). *Machine Learning: The Art and Science of Algorithms That Make Sense of Data*. Cambridge University Press.
+
+Provost, F., & Fawcett, T. (2013). *Data Science for Business*. O'Reilly Media.
+
+Nilsson, N. J. (2014). *Principles of Artificial Intelligence*. Morgan Kaufmann.
+
+---
+
+## Bibliografía complementaria
+
+Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
+
+Pearl, J. (1988). *Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference*. Morgan Kaufmann.
+
+Chollet, F. (2021). *Deep Learning with Python* (2nd ed.). Manning Publications.
+
+Domingos, P. (2015). *The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World*. Basic Books.
+
+Los artículos científicos, recursos web y fuentes especializadas se incorporarán en el README correspondiente a cada unidad.
+
+---
+
+## Recursos académicos complementarios
+
+Durante el desarrollo del curso se podrán consultar recursos académicos y técnicos provenientes de:
+
+a) Association for the Advancement of Artificial Intelligence (AAAI)
+
+b) Association for Computing Machinery (ACM)
+
+c) IEEE Xplore
+
+d) SpringerLink
+
+e) ScienceDirect
+
+f) arXiv
+
+g) UC Berkeley CS188
+
+h) Stanford University
+
+i) Cambridge University Press
+
+j) MIT Press
+
+Los recursos específicos serán seleccionados de acuerdo con los objetivos de aprendizaje de cada unidad.
+
+---
+
+## Uso académico
+
+Los materiales disponibles en este repositorio tienen fines educativos y académicos.
+
+Los libros, artículos científicos y demás recursos externos utilizados como fuentes de consulta se referencian respetando sus derechos de autor y condiciones de uso.
+
+No se redistribuyen en este repositorio materiales protegidos cuya licencia no permita su publicación.
+
+---
+
+## Autor
+
+**Dr. Samuel Efrén Viñas Álvarez**  
+Maestría en Sistemas Computacionales  
+Tecnológico Nacional de México
