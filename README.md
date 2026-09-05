@@ -1,6 +1,6 @@
 # Introducción a la Inteligencia Artificial
 
-Repositorio académico de apoyo para la asignatura **Introducción a la Inteligencia Artificial** de la **Maestría en Sistemas Computacionales**.
+Repositorio académico de apoyo para la asignatura **Introducción a la Inteligencia Artificial**
 
 ## Propósito
 
