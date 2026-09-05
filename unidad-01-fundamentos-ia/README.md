@@ -12,9 +12,9 @@ Análisis de las principales formas de definir la Inteligencia Artificial y de l
 
 Estudio de agentes, entorno, sensores, actuadores, percepciones, función de agente, racionalidad, medidas de desempeño, PEAS y características de los entornos de tarea.
 
-### 1.4 Clasificación de la Inteligencia Artificial
+### [1.4 Clasificación de la Inteligencia Artificial](1.4-clasificacion-ia/)
 
-IA débil y fuerte, así como IA específica y general.
+Distinción entre IA específica e IA general, así como entre IA débil e IA fuerte, considerando tanto el alcance de las capacidades como la interpretación filosófica de la inteligencia.
 
 ### 1.5 Arquitecturas clásicas y modernas
 
@@ -29,5 +29,5 @@ Arquitecturas Soar, ACT-R, agentes BDI y arquitecturas híbridas.
 | 1.1 Historia y evolución de la IA | ✅ Disponible |
 | 1.2 Definiciones y enfoques | ✅ Disponible |
 | 1.3 Agentes inteligentes | ✅ Disponible |
-| 1.4 Clasificación de la IA | ⏳ En desarrollo |
+| 1.4 Clasificación de la IA | ✅ Disponible |
 | 1.5 Arquitecturas de IA | ⏳ En desarrollo |
