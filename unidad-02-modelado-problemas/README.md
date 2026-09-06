@@ -22,9 +22,9 @@ Estudio de problemas en los que un sistema debe determinar una secuencia de acci
 
 Estudio de problemas adversariales en los que intervienen agentes con objetivos opuestos, utilizando árboles de juego, funciones de utilidad, minimax y poda alpha-beta.
 
-### 2.7 Satisfacibilidad
+### [2.7 Satisfacibilidad](2.7-satisfacibilidad/)
 
-Introducción a problemas SAT y su relación con restricciones y razonamiento lógico.
+Introducción a problemas SAT mediante variables booleanas, literales, cláusulas, forma normal conjuntiva (CNF), satisfacibilidad, DPLL y su relación con problemas de planificación.
 
 ---
 
@@ -38,4 +38,4 @@ Introducción a problemas SAT y su relación con restricciones y razonamiento l�
 | 2.4 Búsqueda informada | ✅ Disponible |
 | 2.5 Planificación automática | ✅ Disponible |
 | 2.6 Juegos y adversarios | ✅ Disponible |
-| 2.7 Satisfacibilidad | ⏳ En desarrollo |
+| 2.7 Satisfacibilidad | ✅ Disponible |
