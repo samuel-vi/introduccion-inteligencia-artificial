@@ -12,10 +12,9 @@ Representación formal de problemas mediante estados, acciones u operadores, mod
 
 Estudio y comparación de estrategias que exploran el espacio de estados sin utilizar información heurística, incluyendo BFS, DFS y búsqueda en profundidad iterativa.
 
-### 2.4 Búsqueda informada
+### [2.4 Búsqueda informada](2.4-busqueda-informada/)
 
-Uso de heurísticas para orientar la búsqueda mediante algoritmos como Greedy y A*.
-
+Estudio de estrategias que utilizan información heurística para orientar la exploración del espacio de estados, incluyendo Greedy Best-First Search, A* y heurísticas admisibles.
 ### 2.5 Planificación automática
 
 Representación y resolución de problemas que requieren determinar secuencias de acciones, incluyendo una introducción a STRIPS.
@@ -37,7 +36,7 @@ Introducción a problemas SAT y su relación con restricciones y razonamiento l�
 | 2.1 Formulación de problemas para IA | ✅ Disponible |
 | 2.2 Espacios de estado y operadores | ✅ Disponible |
 | 2.3 Búsqueda no informada | ✅ Disponible |
-| 2.4 Búsqueda informada | ⏳ En desarrollo |
-| 2.5 Planificación automática | ⏳ Pendiente |
+| 2.4 Búsqueda informada | ✅ Disponible |
+| 2.5 Planificación automática | ⏳ En desarrollo |
 | 2.6 Juegos y adversarios | ⏳ Pendiente |
 | 2.7 Satisfacibilidad | ⏳ Pendiente |
