@@ -14,10 +14,9 @@ Estudio y comparación de estrategias que exploran el espacio de estados sin uti
 
 ### [2.4 Búsqueda informada](2.4-busqueda-informada/)
 
-Estudio de estrategias que utilizan información heurística para orientar la exploración del espacio de estados, incluyendo Greedy Best-First Search, A* y heurísticas admisibles.
-### 2.5 Planificación automática
+### [2.5 Planificación automática](2.5-planificacion-automatica/)
 
-Representación y resolución de problemas que requieren determinar secuencias de acciones, incluyendo una introducción a STRIPS.
+Estudio de problemas en los que un sistema debe determinar una secuencia de acciones para alcanzar un objetivo, utilizando estados, precondiciones, efectos y la representación clásica STRIPS.
 
 ### 2.6 Juegos y adversarios
 
@@ -37,6 +36,6 @@ Introducción a problemas SAT y su relación con restricciones y razonamiento l�
 | 2.2 Espacios de estado y operadores | ✅ Disponible |
 | 2.3 Búsqueda no informada | ✅ Disponible |
 | 2.4 Búsqueda informada | ✅ Disponible |
-| 2.5 Planificación automática | ⏳ En desarrollo |
-| 2.6 Juegos y adversarios | ⏳ Pendiente |
+| 2.5 Planificación automática | ✅ Disponible |
+| 2.6 Juegos y adversarios | ⏳ En desarrollo |
 | 2.7 Satisfacibilidad | ⏳ Pendiente |
