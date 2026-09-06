@@ -1,21 +1,12 @@
-
-# Unidad 2. Modelado y planteamiento de problemas
-
-## Objetivo
-
-Desarrollar habilidades para identificar, formular y representar problemas susceptibles de ser abordados mediante Inteligencia Artificial, definiendo sus entradas, salidas, restricciones y criterios de solución, así como aplicar métodos clásicos de búsqueda, planificación, satisfacibilidad y búsqueda adversarial para su resolución.
-
----
-
 ## Subtemas
 
 ### [2.1 Formulación de problemas para Inteligencia Artificial](2.1-formulacion-problemas/)
 
 Transformación de una necesidad real en un problema claramente definido mediante la identificación del objetivo, entradas, salida, restricciones, criterio de éxito, abstracción y tipo de problema.
 
-### 2.2 Espacios de estado y operadores
+### [2.2 Espacios de estado y operadores](2.2-espacios-estado/)
 
-Representación formal de problemas mediante estados, acciones, estado inicial, estado objetivo, operadores y costos.
+Representación formal de problemas mediante estados, acciones u operadores, modelo de transición, estado inicial, estado objetivo y costos.
 
 ### 2.3 Búsqueda no informada
 
@@ -44,33 +35,9 @@ Introducción a problemas SAT y su relación con restricciones y razonamiento l�
 | Subtema | Estado |
 |---|---|
 | 2.1 Formulación de problemas para IA | ✅ Disponible |
-| 2.2 Espacios de estado y operadores | ⏳ En desarrollo |
-| 2.3 Búsqueda no informada | ⏳ Pendiente |
+| 2.2 Espacios de estado y operadores | ✅ Disponible |
+| 2.3 Búsqueda no informada | ⏳ En desarrollo |
 | 2.4 Búsqueda informada | ⏳ Pendiente |
 | 2.5 Planificación automática | ⏳ Pendiente |
 | 2.6 Juegos y adversarios | ⏳ Pendiente |
 | 2.7 Satisfacibilidad | ⏳ Pendiente |
-
----
-
-## Secuencia de aprendizaje
-
-```text
-Formulación
-    ↓
-Representación
-    ↓
-Búsqueda
-    ↓
-Planificación
-    ↓
-Adversarios
-    ↓
-Restricciones
-```
-
-La unidad comienza con la comprensión del problema, continúa con su representación formal y posteriormente estudia diferentes estrategias para encontrar soluciones.
-
----
-
-[← Volver al contenido principal](../)
