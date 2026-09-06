@@ -18,9 +18,9 @@ Estudio y comparación de estrategias que exploran el espacio de estados sin uti
 
 Estudio de problemas en los que un sistema debe determinar una secuencia de acciones para alcanzar un objetivo, utilizando estados, precondiciones, efectos y la representación clásica STRIPS.
 
-### 2.6 Juegos y adversarios
+### [2.6 Juegos y adversarios](2.6-juegos-adversarios/)
 
-Análisis de problemas en los que intervienen agentes con objetivos opuestos mediante minimax y poda alpha-beta.
+Estudio de problemas adversariales en los que intervienen agentes con objetivos opuestos, utilizando árboles de juego, funciones de utilidad, minimax y poda alpha-beta.
 
 ### 2.7 Satisfacibilidad
 
@@ -37,5 +37,5 @@ Introducción a problemas SAT y su relación con restricciones y razonamiento l�
 | 2.3 Búsqueda no informada | ✅ Disponible |
 | 2.4 Búsqueda informada | ✅ Disponible |
 | 2.5 Planificación automática | ✅ Disponible |
-| 2.6 Juegos y adversarios | ⏳ En desarrollo |
-| 2.7 Satisfacibilidad | ⏳ Pendiente |
+| 2.6 Juegos y adversarios | ✅ Disponible |
+| 2.7 Satisfacibilidad | ⏳ En desarrollo |
