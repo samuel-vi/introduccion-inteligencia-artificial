@@ -1,1 +1,1 @@
-![Proceso de formulación de un problema](imagenes/proceso-formulacion-problema.png)
+![Proceso de formulación de un problema](proceso-formulacion-problema.png)
