@@ -1,9 +1,8 @@
-
 # Unidad 3. Representación del conocimiento y razonamiento
 
 ## Objetivo de la unidad
 
-Estudiar formas estructuradas de representar conocimiento y los mecanismos fundamentales de razonamiento en Inteligencia Artificial.
+Estudiar formas estructuradas de representar conocimiento.
 
 ---
 
@@ -51,7 +50,7 @@ c) Lógica proposicional
 
 d) Sintaxis y semántica
 
-e) Implicación lógica e inferencia
+e) Consecuencia lógica e inferencia
 
 f) Lógica de primer orden
 
@@ -71,21 +70,37 @@ i) Representación de conocimiento general
 
 ---
 
-### ⏳ 3.2 Redes semánticas, marcos y ontologías (OWL)
+### ✅ 3.2 Redes semánticas, marcos y ontologías (OWL)
 
-**Estado:** Pendiente
+**Estado:** Disponible
 
-Este subtema abordará formas estructuradas de representar conceptos, atributos, relaciones y jerarquías.
+En este subtema se estudian diferentes formas estructuradas de representar conocimiento, avanzando desde las relaciones entre conceptos hasta la construcción de ontologías formales.
 
-Se estudiará la transición desde representaciones lógicas hacia:
+El estudiante trabajará con:
 
-a) Redes semánticas
+a) Redes semánticas: nodos, arcos, conceptos, instancias y relaciones
 
-b) Marcos
+b) Relaciones estructurales como `subclase-de`, `instancia-de` y `parte-de`
 
-c) Ontologías
+c) Jerarquías y herencia de propiedades
 
-d) Introducción a OWL
+d) Marcos clase y marcos instancia
+
+e) Ranuras, valores y facetas
+
+f) Ontologías: clases, individuos, propiedades, relaciones y axiomas
+
+g) OWL 2 como lenguaje para representar ontologías computables
+
+h) Conocimiento explícito e implícito mediante razonamiento básico
+
+**Recursos disponibles**
+
+- [Contenido académico](./3.2-redes-semanticas-marcos-ontologias/README.md)
+- [Recursos complementarios](./3.2-redes-semanticas-marcos-ontologias/recursos/README.md)
+- [Práctica con Protégé y OWL 2](./3.2-redes-semanticas-marcos-ontologias/practica/README.md)
+- [Actividad de aprendizaje](./3.2-redes-semanticas-marcos-ontologias/actividades/README.md)
+- [Imágenes del subtema](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
 
 ---
 
@@ -156,6 +171,10 @@ Para cada subtema se recomienda seguir la siguiente secuencia:
 Cuando el subtema incluya notebook:
 
 **Video → Contenido → Notebook → Actividad → Verificación**
+
+Cuando el contenido requiera una herramienta especializada, como en el subtema 3.2:
+
+**Video → Contenido → Práctica en herramienta → Actividad → Verificación**
 
 ---
 
@@ -248,7 +267,7 @@ La ponderación global correspondiente a la Unidad 3 es del **12 %** de la calif
 | Subtema | Estado |
 |---|---|
 | 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
-| 3.2 Redes semánticas, marcos y ontologías (OWL) | ⏳ Pendiente |
+| 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
 | 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ⏳ Pendiente |
 | 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
 | 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
