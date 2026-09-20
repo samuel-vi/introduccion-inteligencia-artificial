@@ -2,13 +2,13 @@
 
 ## Objetivo de la unidad
 
-Estudiar formas estructuradas de representar conocimiento y los mecanismos fundamentales de razonamiento en Inteligencia Artificial.
+**Estudiar formas estructuradas de representar conocimiento.**
 
 ---
 
 ## Descripción general
 
-En esta unidad se estudian los fundamentos de la representación del conocimiento en Inteligencia Artificial, desde los lenguajes lógicos hasta estructuras semánticas y mecanismos de inferencia.
+En esta unidad se estudian los fundamentos de la **representación del conocimiento en Inteligencia Artificial**, desde el uso de lenguajes lógicos hasta estructuras semánticas, ontologías y mecanismos de inferencia.
 
 La unidad busca que el estudiante comprenda cómo un sistema inteligente puede:
 
@@ -16,11 +16,11 @@ a) Representar hechos, objetos, propiedades y relaciones
 
 b) Organizar conocimiento de manera estructurada
 
-c) Aplicar reglas para derivar nuevas conclusiones
+c) Utilizar reglas para obtener nuevas conclusiones
 
 d) Trabajar con conocimiento incompleto, revisable o incierto
 
-e) Utilizar ontologías y grafos de conocimiento en contextos contemporáneos como la Web Semántica
+e) Utilizar ontologías y grafos de conocimiento en contextos como la Web Semántica
 
 ---
 
@@ -30,15 +30,33 @@ La secuencia conceptual de la unidad es:
 
 **Lógica → Representación estructurada → Inferencia → Razonamiento no monótono e incierto → Web Semántica y grafos de conocimiento**
 
+Esta organización permite avanzar desde la pregunta:
+
+> **¿Cómo representamos conocimiento?**
+
+hasta:
+
+> **¿Cómo puede un sistema utilizar ese conocimiento para razonar?**
+
 ---
 
-## Subtemas
+## Estado de avance
 
-### ✅ 3.1 Lógica proposicional y lógica de primer orden
+| Subtema | Estado |
+|---|---|
+| 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
+| 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
+| 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ⏳ Pendiente |
+| 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
+| 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
 
-**Estado:** Disponible
+---
 
-En este subtema se estudia cómo la lógica puede utilizarse como lenguaje formal para representar conocimiento y permitir razonamiento en sistemas de IA.
+# 3.1 Lógica proposicional y lógica de primer orden
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudia cómo la lógica puede utilizarse como **lenguaje formal para representar conocimiento** y como fundamento del razonamiento simbólico.
 
 El estudiante trabajará con:
 
@@ -50,7 +68,7 @@ c) Lógica proposicional
 
 d) Sintaxis y semántica
 
-e) Implicación lógica e inferencia
+e) Consecuencia lógica e inferencia
 
 f) Lógica de primer orden
 
@@ -60,21 +78,27 @@ h) Variables y cuantificadores
 
 i) Representación de conocimiento general
 
-**Recursos disponibles**
+## Recursos disponibles
 
 - [Contenido académico](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
 - [Recursos complementarios](./3.1-logica-proposicional-y-logica-de-primer-orden/recursos/README.md)
 - [Actividad de aprendizaje](./3.1-logica-proposicional-y-logica-de-primer-orden/actividades/README.md)
 - [Notebook: Base de conocimiento e inferencia simple](./3.1-logica-proposicional-y-logica-de-primer-orden/notebooks/3.1-base-conocimiento-logica.ipynb)
-- [Imágenes del subtema](./3.1-logica-proposicional-y-logica-de-primer-orden/imagenes/)
+- [Imágenes e infografías](./3.1-logica-proposicional-y-logica-de-primer-orden/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.1 se aplicará en Moodle.
 
 ---
 
-### ✅ 3.2 Redes semánticas, marcos y ontologías (OWL)
+# 3.2 Redes semánticas, marcos y ontologías (OWL)
 
-**Estado:** Disponible
+**Estado:** ✅ Disponible
 
-En este subtema se estudian diferentes formas estructuradas de representar conocimiento, avanzando desde las relaciones entre conceptos hasta la construcción de ontologías formales.
+En este subtema se estudian diferentes formas estructuradas de representar conocimiento, avanzando desde relaciones gráficas entre conceptos hasta la construcción de ontologías formales y computables.
 
 El estudiante trabajará con:
 
@@ -94,19 +118,59 @@ g) OWL 2 como lenguaje para representar ontologías computables
 
 h) Conocimiento explícito e implícito mediante razonamiento básico
 
-**Recursos disponibles**
+## Recursos disponibles
 
 - [Contenido académico](./3.2-redes-semanticas-marcos-ontologias/README.md)
 - [Recursos complementarios](./3.2-redes-semanticas-marcos-ontologias/recursos/README.md)
 - [Práctica con Protégé y OWL 2](./3.2-redes-semanticas-marcos-ontologias/practica/README.md)
 - [Actividad de aprendizaje](./3.2-redes-semanticas-marcos-ontologias/actividades/README.md)
-- [Imágenes del subtema](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
+- [Imágenes e infografías](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Práctica con Protégé → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.2 se aplicará en Moodle.
 
 ---
 
-### ⏳ 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
+# Conexión entre 3.1 y 3.2
 
-**Estado:** Pendiente
+Los dos primeros subtemas constituyen un bloque conceptual continuo.
+
+En **3.1**, el conocimiento se representa mediante:
+
+**Hechos + reglas + expresiones lógicas**
+
+En **3.2**, ese conocimiento se organiza mediante:
+
+**Conceptos + relaciones + propiedades + jerarquías + ontologías**
+
+La progresión puede resumirse como:
+
+```text
+Situación del mundo real
+        ↓
+Representación lógica
+        ↓
+Base de conocimiento
+        ↓
+Redes semánticas
+        ↓
+Marcos
+        ↓
+Ontologías
+        ↓
+OWL
+```
+
+Esta secuencia prepara el estudio de los mecanismos de inferencia del subtema 3.3.
+
+---
+
+# 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
+
+**Estado:** ⏳ Pendiente
 
 Este subtema se concentrará en los mecanismos utilizados para obtener nuevas conclusiones a partir de una base de conocimiento.
 
@@ -116,17 +180,19 @@ a) Encadenamiento hacia adelante
 
 b) Encadenamiento hacia atrás
 
-c) Trazas de inferencia
+c) Hechos y reglas
 
-d) Aplicación de reglas
+d) Trazas de inferencia
 
-e) Relación con sistemas expertos
+e) Aplicación de reglas
+
+f) Relación con sistemas expertos
 
 ---
 
-### ⏳ 3.4 Razonamiento no monótono e incierto
+# 3.4 Razonamiento no monótono e incierto
 
-**Estado:** Pendiente
+**Estado:** ⏳ Pendiente
 
 Este subtema abordará situaciones en las que el conocimiento:
 
@@ -138,13 +204,13 @@ c) Puede modificarse al incorporar nueva información
 
 d) No puede expresarse únicamente mediante reglas estrictamente verdaderas o falsas
 
-La incertidumbre probabilística se desarrollará con mayor profundidad en la Unidad 5.
+La incertidumbre probabilística se desarrollará con mayor profundidad en la unidad correspondiente.
 
 ---
 
-### ⏳ 3.5 Ontologías en la Web Semántica y grafos de conocimiento
+# 3.5 Ontologías en la Web Semántica y grafos de conocimiento
 
-**Estado:** Pendiente
+**Estado:** ⏳ Pendiente
 
 Este subtema estudiará la aplicación de estructuras semánticas en escenarios contemporáneos.
 
@@ -164,17 +230,17 @@ e) Integración y consulta de conocimiento estructurado
 
 ## Forma sugerida de trabajo
 
-Para cada subtema se recomienda seguir la siguiente secuencia:
+Para cada subtema se recomienda seguir una secuencia común:
 
-**Video introductorio → Contenido académico → Práctica → Actividad de aprendizaje → Verificación**
+**Video introductorio → Contenido académico → Recurso visual → Práctica → Actividad → Verificación**
 
 Cuando el subtema incluya notebook:
 
-**Video → Contenido → Notebook → Actividad → Verificación**
+**Video → Contenido → Infografía → Notebook → Actividad → Autoevaluación**
 
 Cuando el contenido requiera una herramienta especializada, como en el subtema 3.2:
 
-**Video → Contenido → Práctica en herramienta → Actividad → Verificación**
+**Video → Contenido → Infografía → Práctica en herramienta → Actividad → Autoevaluación**
 
 ---
 
@@ -186,21 +252,23 @@ a) Bases de conocimiento
 
 b) Representaciones lógicas
 
-c) Trazas de inferencia
+c) Representaciones mediante redes semánticas y marcos
 
-d) Sistema simbólico
+d) Trazas de inferencia
 
-e) Ontología o grafo de conocimiento
+e) Sistema simbólico
 
-f) Reporte técnico
+f) Ontología o grafo de conocimiento
+
+g) Reporte técnico
 
 ---
 
 ## Actividad integradora de la unidad
 
-**Estado:** Pendiente
+**Estado:** ⏳ Pendiente
 
-La actividad integradora articulará los contenidos de los cinco subtemas mediante el diseño de una solución simbólica para un dominio acotado.
+La actividad integradora articulará los cinco subtemas mediante el diseño de una solución simbólica para un dominio acotado.
 
 De manera general, el estudiante deberá:
 
@@ -214,7 +282,7 @@ d) Formular reglas
 
 e) Realizar inferencias
 
-f) Incorporar una representación semántica mediante ontología o grafo
+f) Incorporar una representación semántica mediante una ontología o grafo
 
 g) Documentar el proceso y las conclusiones
 
@@ -232,13 +300,15 @@ b) Actividades de modelado lógico
 
 c) Notebooks cuando aporten valor pedagógico
 
-d) Trazas de inferencia
+d) Modelos mediante redes semánticas y marcos
 
-e) Sistema simbólico documentado
+e) Trazas de inferencia
 
-f) Ontología o grafo pequeño
+f) Sistema simbólico documentado
 
-g) Reporte técnico
+g) Ontología o grafo pequeño
+
+h) Reporte técnico
 
 ---
 
@@ -258,29 +328,10 @@ e) Seminario
 
 f) Revisión entre pares
 
-La ponderación global correspondiente a la Unidad 3 es del **12 %** de la calificación del curso.
-
----
-
-## Estado de avance
-
-| Subtema | Estado |
-|---|---|
-| 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
-| 3.2 Redes semánticas, marcos y ontologías (OWL) | ⏳ Pendiente |
-| 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ⏳ Pendiente |
-| 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
-| 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
-
----
-
-## Referencia principal
-
-Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
-
 ---
 
 ## Navegación
 
-[← Volver al repositorio principal](../README.md)
-
+- [← Volver al repositorio principal](../README.md)
+- [Ir al subtema 3.1 →](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
+- [Ir al subtema 3.2 →](./3.2-redes-semanticas-marcos-ontologias/README.md)
