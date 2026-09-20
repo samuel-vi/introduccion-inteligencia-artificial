@@ -1,4 +1,3 @@
-
 # 3.4 Razonamiento no monótono e incierto
 
 ## Propósito del subtema
@@ -26,6 +25,14 @@ Conocimiento incompleto
 ```
 
 > **Idea central:** en algunos problemas, una conclusión válida con la información disponible puede necesitar revisarse cuando aparece nueva información.
+
+
+<p align="center">
+  <img src="./imagenes/3.4-razonamiento-no-monotono.png"
+       alt="Razonamiento no monótono e incierto"
+       width="100%">
+</p>
+
 
 ---
 
@@ -625,6 +632,14 @@ Entonces `Inscrito(Carlos)` puede permanecer como desconocido.
 | Un hecho no aparece | Puede asumirse falso | Se considera desconocido |
 | Ausencia de información | Se interpreta como negación | Se mantiene como desconocida |
 | Uso frecuente | Bases de datos y ciertos sistemas de reglas | Ontologías y Web Semántica |
+
+
+<p align="center">
+  <img src="./imagenes/3.4-mundo-abierto-vs-cerrado.png"
+       alt="Comparación entre mundo abierto y mundo cerrado"
+       width="100%">
+</p>
+
 
 ### 10.4 Conexión con ontologías
 
