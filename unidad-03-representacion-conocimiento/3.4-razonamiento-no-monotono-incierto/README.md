@@ -287,6 +287,13 @@ NoActivarRiego
 | Tipo de conclusión | Estable | Puede ser provisional |
 | Uso típico | Razonamiento lógico clásico | Conocimiento incompleto y excepciones |
 
+
+<p align="center">
+  <img src="./imagenes/3.4-monotono-vs-no-monotono.png"
+       alt="Comparación entre razonamiento monotónico y no monotónico"
+       width="100%">
+</p>
+
 Forma sencilla de recordarlo:
 
 **Razonamiento monotónico**
