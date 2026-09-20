@@ -2,7 +2,7 @@
 
 ## Objetivo de la unidad
 
-Estudiar formas estructuradas de representar conocimiento.
+Estudiar formas estructuradas de representar conocimiento y los mecanismos fundamentales de razonamiento en Inteligencia Artificial.
 
 ---
 
@@ -50,7 +50,7 @@ c) Lógica proposicional
 
 d) Sintaxis y semántica
 
-e) Consecuencia lógica e inferencia
+e) Implicación lógica e inferencia
 
 f) Lógica de primer orden
 
@@ -267,7 +267,7 @@ La ponderación global correspondiente a la Unidad 3 es del **12 %** de la calif
 | Subtema | Estado |
 |---|---|
 | 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
-| 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
+| 3.2 Redes semánticas, marcos y ontologías (OWL) | ⏳ Pendiente |
 | 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ⏳ Pendiente |
 | 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
 | 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
