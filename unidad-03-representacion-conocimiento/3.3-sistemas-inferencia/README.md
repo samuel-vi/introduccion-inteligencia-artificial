@@ -1,9 +1,16 @@
-
 # 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
 
 ## Propósito del subtema
 
 Comprender cómo un sistema de Inteligencia Artificial puede utilizar una **base de hechos** y una **base de reglas** para obtener nuevas conclusiones mediante los mecanismos de **encadenamiento hacia adelante** (*forward chaining*) y **encadenamiento hacia atrás** (*backward chaining*).
+
+
+<p align="center">
+  <img src="./imagenes/3.3-sistemas-de-inferencia.png"
+       alt="Sistemas de inferencia: hacia adelante y hacia atrás"
+       width="100%">
+</p>
+
 
 Este subtema da continuidad a lo estudiado previamente:
 
@@ -393,6 +400,14 @@ El **encadenamiento hacia adelante** (*forward chaining*) comienza con los **hec
 
 Por esta razón se considera un razonamiento **dirigido por los datos** (*data-driven*).
 
+
+<p align="center">
+  <img src="./imagenes/3.3-forward-chaining.png"
+       alt="Encadenamiento hacia adelante o forward chaining"
+       width="100%">
+</p>
+
+
 ```text
 HECHOS INICIALES
        ↓
@@ -651,6 +666,14 @@ Ejemplos: monitoreo de sensores, alertas, eventos y automatización mediante reg
 El **encadenamiento hacia atrás** (*backward chaining*) comienza con una **meta o conclusión que se desea comprobar** y busca qué hechos y reglas permitirían demostrarla.
 
 Por esta razón se considera un razonamiento **dirigido por metas** (*goal-driven*).
+
+
+<p align="center">
+  <img src="./imagenes/3.3-backward-chaining.png"
+       alt="Encadenamiento hacia atrás o backward chaining"
+       width="100%">
+</p>
+
 
 ```text
 META O PREGUNTA
