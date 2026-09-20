@@ -11,7 +11,7 @@ La idea central del subtema es pasar de representar conocimiento mediante expres
 
 ---
 <p align="center">
-  <img src="./imagenes/3.2-redes-semanticas-marcos-ontologias.png"
+  <img src="./imagenes/redes-semanticas-marcos-ontologias.png"
        alt="Redes semánticas, marcos y ontologías OWL"
        width="100%">
 </p
