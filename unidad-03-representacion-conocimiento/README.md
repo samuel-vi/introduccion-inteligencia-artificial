@@ -1,337 +1,468 @@
-# Unidad 3. Representación del conocimiento y razonamiento
-
-## Objetivo de la unidad
-
-**Estudiar formas estructuradas de representar conocimiento.**
-
----
-
-## Descripción general
-
-En esta unidad se estudian los fundamentos de la **representación del conocimiento en Inteligencia Artificial**, desde el uso de lenguajes lógicos hasta estructuras semánticas, ontologías y mecanismos de inferencia.
-
-La unidad busca que el estudiante comprenda cómo un sistema inteligente puede:
-
-a) Representar hechos, objetos, propiedades y relaciones
-
-b) Organizar conocimiento de manera estructurada
-
-c) Utilizar reglas para obtener nuevas conclusiones
-
-d) Trabajar con conocimiento incompleto, revisable o incierto
-
-e) Utilizar ontologías y grafos de conocimiento en contextos como la Web Semántica
-
----
-
-## Ruta de aprendizaje
-
-La secuencia conceptual de la unidad es:
-
-**Lógica → Representación estructurada → Inferencia → Razonamiento no monótono e incierto → Web Semántica y grafos de conocimiento**
-
-Esta organización permite avanzar desde la pregunta:
-
-> **¿Cómo representamos conocimiento?**
-
-hasta:
-
-> **¿Cómo puede un sistema utilizar ese conocimiento para razonar?**
-
----
-
-## Estado de avance
-
-| Subtema | Estado |
-|---|---|
-| 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
-| 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
-| 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ⏳ Pendiente |
-| 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
-| 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
-
----
-
-# 3.1 Lógica proposicional y lógica de primer orden
-
-**Estado:** ✅ Disponible
-
-En este subtema se estudia cómo la lógica puede utilizarse como **lenguaje formal para representar conocimiento** y como fundamento del razonamiento simbólico.
-
-El estudiante trabajará con:
-
-a) Bases de conocimiento
-
-b) Hechos y reglas
-
-c) Lógica proposicional
-
-d) Sintaxis y semántica
-
-e) Consecuencia lógica e inferencia
-
-f) Lógica de primer orden
-
-g) Objetos, predicados y relaciones
-
-h) Variables y cuantificadores
-
-i) Representación de conocimiento general
-
-## Recursos disponibles
-
-- [Contenido académico](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
-- [Recursos complementarios](./3.1-logica-proposicional-y-logica-de-primer-orden/recursos/README.md)
-- [Actividad de aprendizaje](./3.1-logica-proposicional-y-logica-de-primer-orden/actividades/README.md)
-- [Notebook: Base de conocimiento e inferencia simple](./3.1-logica-proposicional-y-logica-de-primer-orden/notebooks/3.1-base-conocimiento-logica.ipynb)
-- [Imágenes e infografías](./3.1-logica-proposicional-y-logica-de-primer-orden/imagenes/)
-
-## Secuencia sugerida
-
-**Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
-
-La autoevaluación correspondiente al subtema 3.1 se aplicará en Moodle.
-
----
-
-# 3.2 Redes semánticas, marcos y ontologías (OWL)
-
-**Estado:** ✅ Disponible
-
-En este subtema se estudian diferentes formas estructuradas de representar conocimiento, avanzando desde relaciones gráficas entre conceptos hasta la construcción de ontologías formales y computables.
-
-El estudiante trabajará con:
-
-a) Redes semánticas: nodos, arcos, conceptos, instancias y relaciones
-
-b) Relaciones estructurales como `subclase-de`, `instancia-de` y `parte-de`
-
-c) Jerarquías y herencia de propiedades
-
-d) Marcos clase y marcos instancia
-
-e) Ranuras, valores y facetas
-
-f) Ontologías: clases, individuos, propiedades, relaciones y axiomas
-
-g) OWL 2 como lenguaje para representar ontologías computables
-
-h) Conocimiento explícito e implícito mediante razonamiento básico
-
-## Recursos disponibles
-
-- [Contenido académico](./3.2-redes-semanticas-marcos-ontologias/README.md)
-- [Recursos complementarios](./3.2-redes-semanticas-marcos-ontologias/recursos/README.md)
-- [Práctica con Protégé y OWL 2](./3.2-redes-semanticas-marcos-ontologias/practica/README.md)
-- [Actividad de aprendizaje](./3.2-redes-semanticas-marcos-ontologias/actividades/README.md)
-- [Imágenes e infografías](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
-
-## Secuencia sugerida
-
-**Video → Apunte → Infografía → Recursos → Práctica con Protégé → Actividad → Autoevaluación**
-
-La autoevaluación correspondiente al subtema 3.2 se aplicará en Moodle.
-
----
-
-# Conexión entre 3.1 y 3.2
-
-Los dos primeros subtemas constituyen un bloque conceptual continuo.
-
-En **3.1**, el conocimiento se representa mediante:
-
-**Hechos + reglas + expresiones lógicas**
-
-En **3.2**, ese conocimiento se organiza mediante:
-
-**Conceptos + relaciones + propiedades + jerarquías + ontologías**
-
-La progresión puede resumirse como:
-
-```text
-Situación del mundo real
-        ↓
-Representación lógica
-        ↓
-Base de conocimiento
-        ↓
-Redes semánticas
-        ↓
-Marcos
-        ↓
-Ontologías
-        ↓
-OWL
-```
-
-Esta secuencia prepara el estudio de los mecanismos de inferencia del subtema 3.3.
-
----
-
 # 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
 
-**Estado:** ⏳ Pendiente
+## Propósito del subtema
 
-Este subtema se concentrará en los mecanismos utilizados para obtener nuevas conclusiones a partir de una base de conocimiento.
+Comprender cómo un sistema de Inteligencia Artificial puede utilizar una **base de hechos** y una **base de reglas** para obtener nuevas conclusiones, mediante los mecanismos de **encadenamiento hacia adelante** (*forward chaining*) y **encadenamiento hacia atrás** (*backward chaining*).
 
-Se estudiarán:
+Este subtema da continuidad a lo estudiado previamente:
 
-a) Encadenamiento hacia adelante
+- En **3.1** se utilizaron hechos, reglas y expresiones lógicas para representar conocimiento.
+- En **3.2** se estudiaron formas estructuradas de organizar conceptos, propiedades y relaciones.
+- En **3.3** se estudiará cómo un sistema puede **razonar con ese conocimiento**.
 
-b) Encadenamiento hacia atrás
+La idea central puede resumirse así:
 
-c) Hechos y reglas
+```text
+Representar conocimiento
+          ↓
+   Hechos y reglas
+          ↓
+   Motor de inferencia
+          ↓
+ Nuevas conclusiones
+```
 
-d) Trazas de inferencia
-
-e) Aplicación de reglas
-
-f) Relación con sistemas expertos
-
----
-
-# 3.4 Razonamiento no monótono e incierto
-
-**Estado:** ⏳ Pendiente
-
-Este subtema abordará situaciones en las que el conocimiento:
-
-a) Es incompleto
-
-b) Puede contener excepciones
-
-c) Puede modificarse al incorporar nueva información
-
-d) No puede expresarse únicamente mediante reglas estrictamente verdaderas o falsas
-
-La incertidumbre probabilística se desarrollará con mayor profundidad en la unidad correspondiente.
+> **Idea clave:** una base de conocimiento contiene información, pero el motor de inferencia permite utilizarla para obtener conocimiento que no estaba expresado explícitamente.
 
 ---
 
-# 3.5 Ontologías en la Web Semántica y grafos de conocimiento
+## 1. De representar conocimiento a razonar con él
 
-**Estado:** ⏳ Pendiente
+Hasta este punto hemos estudiado distintas maneras de representar conocimiento.
 
-Este subtema estudiará la aplicación de estructuras semánticas en escenarios contemporáneos.
+Por ejemplo, podemos registrar los siguientes hechos:
 
-Se abordarán:
+```text
+El equipo no enciende.
+El indicador LED está apagado.
+```
 
-a) Ontologías en la Web Semántica
+También podemos representar una regla:
 
-b) Relaciones entre entidades
+```text
+SI el equipo no enciende
+Y el indicador LED está apagado
+ENTONCES revisar la alimentación eléctrica.
+```
 
-c) Representación mediante grafos
+Los dos primeros enunciados describen información conocida. La regla, en cambio, establece una relación entre condiciones y una posible conclusión.
 
-d) Grafos de conocimiento
+Un sistema de inferencia utiliza ambos tipos de conocimiento para responder una pregunta como:
 
-e) Integración y consulta de conocimiento estructurado
+> **¿Qué debería revisarse si el equipo no enciende y el LED está apagado?**
 
----
+El razonamiento sería:
 
-## Forma sugerida de trabajo
+```text
+Equipo no enciende
+        +
+LED apagado
+        ↓
+Se cumplen las condiciones
+de una regla
+        ↓
+Revisar alimentación eléctrica
+```
 
-Para cada subtema se recomienda seguir una secuencia común:
+La conclusión **“revisar alimentación eléctrica”** no estaba registrada como un hecho inicial. Se obtiene al aplicar una regla sobre los hechos disponibles.
 
-**Video introductorio → Contenido académico → Recurso visual → Práctica → Actividad → Verificación**
+A este proceso de obtener conclusiones a partir de conocimiento existente lo llamaremos **inferencia**.
 
-Cuando el subtema incluya notebook:
+### 1.1 ¿Qué significa inferir?
 
-**Video → Contenido → Infografía → Notebook → Actividad → Autoevaluación**
+En el contexto de la IA simbólica, inferir significa **derivar nueva información a partir de hechos y reglas disponibles**.
 
-Cuando el contenido requiera una herramienta especializada, como en el subtema 3.2:
+Por ejemplo:
 
-**Video → Contenido → Infografía → Práctica en herramienta → Actividad → Autoevaluación**
+```text
+Hecho 1: El suelo está seco.
+Hecho 2: No está lloviendo.
 
----
+Regla:
+SI el suelo está seco
+Y no está lloviendo
+ENTONCES activar el riego.
+```
 
-## Productos de la unidad
+A partir de los dos hechos iniciales, el sistema puede obtener:
 
-A lo largo de la unidad se integrarán progresivamente los siguientes productos:
+```text
+Nuevo hecho: Activar el riego.
+```
 
-a) Bases de conocimiento
+El proceso puede visualizarse así:
 
-b) Representaciones lógicas
+```text
+Suelo seco + No llueve
+          ↓
+      Aplicar regla
+          ↓
+     Activar riego
+```
 
-c) Representaciones mediante redes semánticas y marcos
-
-d) Trazas de inferencia
-
-e) Sistema simbólico
-
-f) Ontología o grafo de conocimiento
-
-g) Reporte técnico
-
----
-
-## Actividad integradora de la unidad
-
-**Estado:** ⏳ Pendiente
-
-La actividad integradora articulará los cinco subtemas mediante el diseño de una solución simbólica para un dominio acotado.
-
-De manera general, el estudiante deberá:
-
-a) Definir el dominio
-
-b) Identificar conceptos, objetos y relaciones
-
-c) Representar conocimiento
-
-d) Formular reglas
-
-e) Realizar inferencias
-
-f) Incorporar una representación semántica mediante una ontología o grafo
-
-g) Documentar el proceso y las conclusiones
-
-La especificación final se desarrollará una vez completados los cinco subtemas.
+Este ejemplo es deliberadamente sencillo. Lo importante no es el sistema de riego, sino observar que una regla permite **transformar conocimiento disponible en una nueva conclusión**.
 
 ---
 
-## Evidencias de aprendizaje
+## 2. ¿Qué es un sistema de inferencia?
 
-Las evidencias previstas para la unidad incluyen:
+Un **sistema de inferencia** es un mecanismo que examina el conocimiento disponible y aplica reglas para determinar qué conclusiones pueden obtenerse.
 
-a) Representaciones formales de conocimiento
+En su forma más sencilla podemos imaginarlo como tres elementos:
 
-b) Actividades de modelado lógico
+```text
+Base de hechos
+      +
+Base de reglas
+      ↓
+Motor de inferencia
+      ↓
+Conclusiones
+```
 
-c) Notebooks cuando aporten valor pedagógico
+En la práctica, el motor de inferencia compara las condiciones de las reglas con la información disponible y determina qué reglas pueden utilizarse.
 
-d) Modelos mediante redes semánticas y marcos
+### Ejemplo
 
-e) Trazas de inferencia
+Supongamos que tenemos:
 
-f) Sistema simbólico documentado
+```text
+Hechos:
+Ana está inscrita.
+Ana tiene una cuenta activa.
 
-g) Ontología o grafo pequeño
+Regla:
+SI un estudiante está inscrito
+Y tiene una cuenta activa
+ENTONCES puede acceder al curso.
+```
 
-h) Reporte técnico
+Como ambas condiciones se cumplen, el sistema puede obtener:
+
+```text
+Ana puede acceder al curso.
+```
+
+Visualmente:
+
+```text
+Inscrita(Ana)
+      +
+CuentaActiva(Ana)
+      ↓
+Aplicación de la regla
+      ↓
+PuedeAcceder(Ana)
+```
+
+Este mecanismo es la base de muchos sistemas simbólicos y sistemas expertos.
 
 ---
 
-## Evaluación
+## 3. Componentes básicos de un sistema de inferencia
 
-La instrumentación didáctica de la asignatura contempla para esta unidad productos relacionados con:
+Para entender cómo funciona un sistema de inferencia, utilizaremos cuatro componentes básicos:
 
-a) Diseño de bases de conocimiento
+```text
+Base de hechos
+      +
+Base de reglas
+      ↓
+Motor de inferencia
+      ↓
+Memoria de trabajo / conocimiento derivado
+```
 
-b) Trazas de inferencia
+### 3.1 Base de hechos
 
-c) Sistema experto
+La **base de hechos** contiene información que el sistema considera disponible en un momento determinado.
 
-d) Ontología o grafo pequeño
+Ejemplo:
 
-e) Seminario
+```text
+equipo_no_enciende
+led_apagado
+```
 
-f) Revisión entre pares
+Los hechos constituyen el punto de partida del razonamiento.
+
+### 3.2 Base de reglas
+
+La **base de reglas** contiene conocimiento que establece qué conclusión puede obtenerse cuando determinadas condiciones se cumplen.
+
+Ejemplo:
+
+```text
+SI equipo_no_enciende
+Y led_apagado
+ENTONCES revisar_alimentacion
+```
+
+Una regla tiene dos partes principales:
+
+```text
+CONDICIONES  →  CONCLUSIÓN
+```
+
+También pueden denominarse:
+
+```text
+Antecedente  →  Consecuente
+```
+
+### 3.3 Motor de inferencia
+
+El **motor de inferencia** es el componente encargado de utilizar los hechos y las reglas.
+
+De manera simplificada realiza el siguiente proceso:
+
+```text
+1. Examinar los hechos disponibles
+              ↓
+2. Buscar reglas cuyas condiciones se cumplan
+              ↓
+3. Aplicar una regla
+              ↓
+4. Obtener una nueva conclusión
+              ↓
+5. Incorporar el nuevo conocimiento
+```
+
+Más adelante veremos que el orden en que se realiza este razonamiento depende de la estrategia utilizada:
+
+- **Encadenamiento hacia adelante:** comienza con los hechos.
+- **Encadenamiento hacia atrás:** comienza con una meta o pregunta.
+
+### 3.4 Memoria de trabajo
+
+Durante el proceso de inferencia pueden aparecer nuevos hechos.
+
+La **memoria de trabajo** representa el conjunto de información que está disponible durante el razonamiento, incluyendo hechos iniciales y, dependiendo del sistema, conclusiones obtenidas.
+
+Ejemplo:
+
+```text
+Estado inicial:
+equipo_no_enciende
+led_apagado
+```
+
+Después de aplicar una regla:
+
+```text
+equipo_no_enciende
+led_apagado
+revisar_alimentacion
+```
+
+La nueva información puede ser utilizada en pasos posteriores.
+
+---
+
+## 4. Reglas de producción
+
+Una forma sencilla de representar conocimiento procedimental en sistemas simbólicos es mediante **reglas de producción**.
+
+Su estructura general es:
+
+```text
+SI condición
+ENTONCES conclusión
+```
+
+También pueden contener varias condiciones:
+
+```text
+SI condición_1
+Y condición_2
+ENTONCES conclusión
+```
+
+### 4.1 Antecedente y consecuente
+
+Podemos dividir una regla en:
+
+```text
+SI A Y B  →  ENTONCES C
+```
+
+donde:
+
+- **A y B** forman el antecedente o conjunto de condiciones.
+- **C** es el consecuente o conclusión.
+
+Ejemplo:
+
+```text
+SI suelo_seco
+Y no_llueve
+ENTONCES activar_riego
+```
+
+### 4.2 ¿Cuándo puede aplicarse una regla?
+
+Una regla puede aplicarse cuando sus condiciones se encuentran satisfechas por los hechos disponibles.
+
+Ejemplo:
+
+```text
+Hechos:
+suelo_seco
+no_llueve
+```
+
+Regla:
+
+```text
+SI suelo_seco
+Y no_llueve
+ENTONCES activar_riego
+```
+
+Como ambas condiciones están presentes, la regla puede producir:
+
+```text
+activar_riego
+```
+
+Si solamente conocemos:
+
+```text
+suelo_seco
+```
+
+no podemos aplicar esa regla todavía, porque falta verificar:
+
+```text
+no_llueve
+```
+
+> **Una regla no se ejecuta simplemente porque exista. Sus condiciones deben satisfacerse de acuerdo con el conocimiento disponible.**
+
+### 4.3 Un mismo conocimiento puede participar en varias reglas
+
+Considere:
+
+```text
+R1:
+SI suelo_seco
+Y no_llueve
+ENTONCES activar_riego
+
+R2:
+SI activar_riego
+ENTONCES abrir_valvula
+```
+
+Con los hechos:
+
+```text
+suelo_seco
+no_llueve
+```
+
+podemos obtener una cadena sencilla:
+
+```text
+suelo_seco + no_llueve
+          ↓
+         R1
+          ↓
+    activar_riego
+          ↓
+         R2
+          ↓
+     abrir_valvula
+```
+
+Este ejemplo muestra por qué hablamos de **encadenamiento**: la conclusión obtenida por una regla puede utilizarse para satisfacer las condiciones de otra.
+
+---
+
+## Síntesis hasta este punto
+
+| Elemento | Función |
+|---|---|
+| Hecho | Representa información conocida |
+| Regla | Relaciona condiciones con una conclusión |
+| Base de hechos | Almacena los hechos disponibles |
+| Base de reglas | Almacena las reglas del dominio |
+| Motor de inferencia | Determina qué reglas pueden aplicarse |
+| Memoria de trabajo | Mantiene información disponible y derivada |
+| Inferencia | Proceso mediante el cual se obtienen nuevas conclusiones |
+
+La estructura general es:
+
+```text
+HECHOS + REGLAS
+      ↓
+MOTOR DE INFERENCIA
+      ↓
+NUEVAS CONCLUSIONES
+```
+
+A partir de esta base estudiaremos dos estrategias:
+
+```text
+                   SISTEMAS DE INFERENCIA
+                           │
+              ┌────────────┴────────────┐
+              ↓                         ↓
+     Hacia adelante                Hacia atrás
+   Forward chaining              Backward chaining
+              │                         │
+        Parte de datos              Parte de una meta
+```
+
+---
+
+## 5. Encadenamiento hacia adelante
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 6. Encadenamiento hacia atrás
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 7. Comparación: forward chaining vs. backward chaining
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 8. Variables y equiparación
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 9. Unificación básica
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 10. Ejemplo integrado de sistema experto
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 11. Implementación computacional
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 12. Limitaciones de la inferencia determinista
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+## 13. Conexión con el subtema 3.4
+
+> Se desarrollará en la siguiente etapa del subtema.
+
+---
+
+## Referencias base
+
+- Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
+- Temario oficial de la asignatura **Introducción a la Inteligencia Artificial**, Maestría en Sistemas Computacionales, TecNM.
+- Instrumentación Didáctica de Asignaturas de Posgrado, TecNM, revisión 001.
 
 ---
 
 ## Navegación
 
-- [← Volver al repositorio principal](../README.md)
-- [Ir al subtema 3.1 →](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
-- [Ir al subtema 3.2 →](./3.2-redes-semanticas-marcos-ontologias/README.md)
+- [← Volver a la Unidad 3](../README.md)
+- [← Subtema 3.2: Redes semánticas, marcos y ontologías](../3.2-redes-semanticas-marcos-ontologias/README.md)
