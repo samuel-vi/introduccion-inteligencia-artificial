@@ -9,7 +9,7 @@ Comprender cómo la lógica proposicional y la lógica de primer orden permiten 
 > **Enfoque del subtema:** En la Unidad 2 ya se estudiaron satisfacibilidad, CNF y DPLL. En este subtema la lógica se aborda principalmente como lenguaje de representación del conocimiento y como fundamento del razonamiento simbólico.
 
 <p align="center">
-  <img src="./imagenes/flujo-de-razonamiento-en-ia-simbolica.png.png"
+  <img src="./imagenes/flujo-de-razonamiento-en-ia-simbolica.png"
        alt="Flujo de representación del conocimiento: mundo real, representación lógica, base de conocimiento, inferencia y nuevo conocimiento"
        width="100%">
 </p>
