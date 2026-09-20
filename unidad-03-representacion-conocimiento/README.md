@@ -1,4 +1,3 @@
-
 # Unidad 3. Representación del conocimiento y razonamiento
 
 ## Objetivo de la unidad
@@ -48,7 +47,7 @@ hasta:
 | 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
 | 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
 | 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ✅ Disponible |
-| 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
+| 3.4 Razonamiento no monótono e incierto | ✅ Disponible |
 | 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
 
 ---
@@ -135,9 +134,9 @@ La autoevaluación correspondiente al subtema 3.2 se aplicará en Moodle.
 
 ---
 
-# Conexión entre 3.1, 3.2 y 3.3
+# Conexión entre 3.1, 3.2, 3.3 y 3.4
 
-Los tres primeros subtemas constituyen un bloque conceptual continuo.
+Los cuatro primeros subtemas constituyen un bloque conceptual continuo.
 
 En **3.1**, el conocimiento se representa mediante:
 
@@ -150,6 +149,10 @@ En **3.2**, ese conocimiento se organiza mediante:
 En **3.3**, el sistema utiliza ese conocimiento para razonar mediante:
 
 **Hechos + reglas + motor de inferencia + trazas**
+
+En **3.4**, se estudia qué ocurre cuando el conocimiento es:
+
+**Incompleto + revisable + sujeto a excepciones + incierto**
 
 La progresión puede resumirse como:
 
@@ -169,9 +172,13 @@ Motor de inferencia
 Forward chaining / backward chaining
         ↓
 Conclusiones
+        ↓
+Nueva información / excepciones
+        ↓
+Revisión o retractación de conclusiones
 ```
 
-Esta secuencia prepara el estudio del razonamiento con conocimiento incompleto, excepciones e incertidumbre del subtema 3.4.
+Esta secuencia prepara el estudio de ontologías en la Web Semántica y grafos de conocimiento del subtema 3.5.
 
 ---
 
@@ -223,19 +230,45 @@ La autoevaluación correspondiente al subtema 3.3 se aplicará en Moodle.
 
 # 3.4 Razonamiento no monótono e incierto
 
-**Estado:** ⏳ Pendiente
+**Estado:** ✅ Disponible
 
-Este subtema abordará situaciones en las que el conocimiento:
+En este subtema se estudia cómo un sistema de Inteligencia Artificial puede razonar cuando la información disponible es incompleta, contiene excepciones o puede cambiar.
 
-a) Es incompleto
+El estudiante trabajará con:
 
-b) Puede contener excepciones
+a) Razonamiento monotónico y no monotónico
 
-c) Puede modificarse al incorporar nueva información
+b) Conocimiento incompleto
 
-d) No puede expresarse únicamente mediante reglas estrictamente verdaderas o falsas
+c) Reglas por defecto
 
-La incertidumbre probabilística se desarrollará con mayor profundidad en la unidad correspondiente.
+d) Excepciones
+
+e) Revisión y retractación de conclusiones
+
+f) Negación como falla
+
+g) Mundo abierto y mundo cerrado
+
+h) Introducción conceptual a la incertidumbre
+
+i) Ejemplos de aves y pingüinos, acceso de estudiantes y sistemas de riego
+
+j) Comparación práctica mediante un notebook en Python
+
+## Recursos disponibles
+
+- [Contenido académico](./3.4-razonamiento-no-monotono-e-incierto/README.md)
+- [Recursos complementarios](./3.4-razonamiento-no-monotono-e-incierto/recursos/README.md)
+- [Notebook comparativo](./3.4-razonamiento-no-monotono-e-incierto/notebooks/3.4-razonamiento-monotono-no-monotono.ipynb)
+- [Actividad de aprendizaje](./3.4-razonamiento-no-monotono-e-incierto/actividades/README.md)
+- [Imágenes e infografías](./3.4-razonamiento-no-monotono-e-incierto/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografías → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.4 se aplicará en Moodle.
 
 ---
 
@@ -367,3 +400,4 @@ f) Revisión entre pares
 - [Ir al subtema 3.1 →](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
 - [Ir al subtema 3.2 →](./3.2-redes-semanticas-marcos-ontologias/README.md)
 - [Ir al subtema 3.3 →](./3.3-sistemas-de-inferencia/README.md)
+- [Ir al subtema 3.4 →](./3.4-razonamiento-no-monotono-e-incierto/README.md)
