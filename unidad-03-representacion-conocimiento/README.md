@@ -1,1 +1,369 @@
 
+# Unidad 3. Representación del conocimiento y razonamiento
+
+## Objetivo de la unidad
+
+**Estudiar formas estructuradas de representar conocimiento.**
+
+---
+
+## Descripción general
+
+En esta unidad se estudian los fundamentos de la **representación del conocimiento en Inteligencia Artificial**, desde el uso de lenguajes lógicos hasta estructuras semánticas, ontologías y mecanismos de inferencia.
+
+La unidad busca que el estudiante comprenda cómo un sistema inteligente puede:
+
+a) Representar hechos, objetos, propiedades y relaciones
+
+b) Organizar conocimiento de manera estructurada
+
+c) Utilizar reglas para obtener nuevas conclusiones
+
+d) Trabajar con conocimiento incompleto, revisable o incierto
+
+e) Utilizar ontologías y grafos de conocimiento en contextos como la Web Semántica
+
+---
+
+## Ruta de aprendizaje
+
+La secuencia conceptual de la unidad es:
+
+**Lógica → Representación estructurada → Inferencia → Razonamiento no monótono e incierto → Web Semántica y grafos de conocimiento**
+
+Esta organización permite avanzar desde la pregunta:
+
+> **¿Cómo representamos conocimiento?**
+
+hasta:
+
+> **¿Cómo puede un sistema utilizar ese conocimiento para razonar?**
+
+---
+
+## Estado de avance
+
+| Subtema | Estado |
+|---|---|
+| 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
+| 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
+| 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ✅ Disponible |
+| 3.4 Razonamiento no monótono e incierto | ⏳ Pendiente |
+| 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ⏳ Pendiente |
+
+---
+
+# 3.1 Lógica proposicional y lógica de primer orden
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudia cómo la lógica puede utilizarse como **lenguaje formal para representar conocimiento** y como fundamento del razonamiento simbólico.
+
+El estudiante trabajará con:
+
+a) Bases de conocimiento
+
+b) Hechos y reglas
+
+c) Lógica proposicional
+
+d) Sintaxis y semántica
+
+e) Consecuencia lógica e inferencia
+
+f) Lógica de primer orden
+
+g) Objetos, predicados y relaciones
+
+h) Variables y cuantificadores
+
+i) Representación de conocimiento general
+
+## Recursos disponibles
+
+- [Contenido académico](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
+- [Recursos complementarios](./3.1-logica-proposicional-y-logica-de-primer-orden/recursos/README.md)
+- [Actividad de aprendizaje](./3.1-logica-proposicional-y-logica-de-primer-orden/actividades/README.md)
+- [Notebook: Base de conocimiento e inferencia simple](./3.1-logica-proposicional-y-logica-de-primer-orden/notebooks/3.1-base-conocimiento-logica.ipynb)
+- [Imágenes e infografías](./3.1-logica-proposicional-y-logica-de-primer-orden/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.1 se aplicará en Moodle.
+
+---
+
+# 3.2 Redes semánticas, marcos y ontologías (OWL)
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudian diferentes formas estructuradas de representar conocimiento, avanzando desde relaciones gráficas entre conceptos hasta la construcción de ontologías formales y computables.
+
+El estudiante trabajará con:
+
+a) Redes semánticas: nodos, arcos, conceptos, instancias y relaciones
+
+b) Relaciones estructurales como `subclase-de`, `instancia-de` y `parte-de`
+
+c) Jerarquías y herencia de propiedades
+
+d) Marcos clase y marcos instancia
+
+e) Ranuras, valores y facetas
+
+f) Ontologías: clases, individuos, propiedades, relaciones y axiomas
+
+g) OWL 2 como lenguaje para representar ontologías computables
+
+h) Conocimiento explícito e implícito mediante razonamiento básico
+
+## Recursos disponibles
+
+- [Contenido académico](./3.2-redes-semanticas-marcos-ontologias/README.md)
+- [Recursos complementarios](./3.2-redes-semanticas-marcos-ontologias/recursos/README.md)
+- [Práctica con Protégé y OWL 2](./3.2-redes-semanticas-marcos-ontologias/practica/README.md)
+- [Actividad de aprendizaje](./3.2-redes-semanticas-marcos-ontologias/actividades/README.md)
+- [Imágenes e infografías](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Práctica con Protégé → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.2 se aplicará en Moodle.
+
+---
+
+# Conexión entre 3.1, 3.2 y 3.3
+
+Los tres primeros subtemas constituyen un bloque conceptual continuo.
+
+En **3.1**, el conocimiento se representa mediante:
+
+**Hechos + reglas + expresiones lógicas**
+
+En **3.2**, ese conocimiento se organiza mediante:
+
+**Conceptos + relaciones + propiedades + jerarquías + ontologías**
+
+En **3.3**, el sistema utiliza ese conocimiento para razonar mediante:
+
+**Hechos + reglas + motor de inferencia + trazas**
+
+La progresión puede resumirse como:
+
+```text
+Situación del mundo real
+        ↓
+Representación lógica
+        ↓
+Base de conocimiento
+        ↓
+Representación estructurada
+        ↓
+Redes semánticas / marcos / ontologías
+        ↓
+Motor de inferencia
+        ↓
+Forward chaining / backward chaining
+        ↓
+Conclusiones
+```
+
+Esta secuencia prepara el estudio del razonamiento con conocimiento incompleto, excepciones e incertidumbre del subtema 3.4.
+
+---
+
+# 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudia cómo un sistema de Inteligencia Artificial puede utilizar una **base de hechos** y una **base de reglas** para obtener nuevas conclusiones mediante mecanismos de inferencia.
+
+El estudiante trabajará con:
+
+a) Componentes de un sistema de inferencia
+
+b) Base de hechos, base de reglas y memoria de trabajo
+
+c) Reglas de producción
+
+d) Encadenamiento hacia adelante (*forward chaining*)
+
+e) Encadenamiento hacia atrás (*backward chaining*)
+
+f) Trazas de inferencia
+
+g) Variables, equiparación y unificación básica
+
+h) Comparación entre razonamiento dirigido por datos y dirigido por metas
+
+i) Ejemplo integrado de sistema experto simbólico
+
+j) Implementación didáctica en Python
+
+k) Limitaciones de la inferencia determinista
+
+## Recursos disponibles
+
+- [Contenido académico](./3.3-sistemas-de-inferencia/README.md)
+- [Recursos complementarios](./3.3-sistemas-de-inferencia/recursos/README.md)
+- [Notebook: Forward y backward chaining](./3.3-sistemas-de-inferencia/notebooks/3.3-sistemas-de-inferencia.ipynb)
+- [Actividad de aprendizaje](./3.3-sistemas-de-inferencia/actividades/README.md)
+- [Imágenes e infografías](./3.3-sistemas-de-inferencia/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.3 se aplicará en Moodle.
+
+---
+
+# 3.4 Razonamiento no monótono e incierto
+
+**Estado:** ⏳ Pendiente
+
+Este subtema abordará situaciones en las que el conocimiento:
+
+a) Es incompleto
+
+b) Puede contener excepciones
+
+c) Puede modificarse al incorporar nueva información
+
+d) No puede expresarse únicamente mediante reglas estrictamente verdaderas o falsas
+
+La incertidumbre probabilística se desarrollará con mayor profundidad en la unidad correspondiente.
+
+---
+
+# 3.5 Ontologías en la Web Semántica y grafos de conocimiento
+
+**Estado:** ⏳ Pendiente
+
+Este subtema estudiará la aplicación de estructuras semánticas en escenarios contemporáneos.
+
+Se abordarán:
+
+a) Ontologías en la Web Semántica
+
+b) Relaciones entre entidades
+
+c) Representación mediante grafos
+
+d) Grafos de conocimiento
+
+e) Integración y consulta de conocimiento estructurado
+
+---
+
+## Forma sugerida de trabajo
+
+Para cada subtema se recomienda seguir una secuencia común:
+
+**Video introductorio → Contenido académico → Recurso visual → Práctica → Actividad → Verificación**
+
+Cuando el subtema incluya notebook:
+
+**Video → Contenido → Infografía → Notebook → Actividad → Autoevaluación**
+
+Cuando el contenido requiera una herramienta especializada, como en el subtema 3.2:
+
+**Video → Contenido → Infografía → Práctica en herramienta → Actividad → Autoevaluación**
+
+---
+
+## Productos de la unidad
+
+A lo largo de la unidad se integrarán progresivamente los siguientes productos:
+
+a) Bases de conocimiento
+
+b) Representaciones lógicas
+
+c) Representaciones mediante redes semánticas y marcos
+
+d) Trazas de inferencia
+
+e) Sistema simbólico
+
+f) Ontología o grafo de conocimiento
+
+g) Reporte técnico
+
+---
+
+## Actividad integradora de la unidad
+
+**Estado:** ⏳ Pendiente
+
+La actividad integradora articulará los cinco subtemas mediante el diseño de una solución simbólica para un dominio acotado.
+
+De manera general, el estudiante deberá:
+
+a) Definir el dominio
+
+b) Identificar conceptos, objetos y relaciones
+
+c) Representar conocimiento
+
+d) Formular reglas
+
+e) Realizar inferencias
+
+f) Incorporar una representación semántica mediante una ontología o grafo
+
+g) Documentar el proceso y las conclusiones
+
+La especificación final se desarrollará una vez completados los cinco subtemas.
+
+---
+
+## Evidencias de aprendizaje
+
+Las evidencias previstas para la unidad incluyen:
+
+a) Representaciones formales de conocimiento
+
+b) Actividades de modelado lógico
+
+c) Notebooks cuando aporten valor pedagógico
+
+d) Modelos mediante redes semánticas y marcos
+
+e) Trazas de inferencia
+
+f) Sistema simbólico documentado
+
+g) Ontología o grafo pequeño
+
+h) Reporte técnico
+
+---
+
+## Evaluación
+
+La instrumentación didáctica de la asignatura contempla para esta unidad productos relacionados con:
+
+a) Diseño de bases de conocimiento
+
+b) Trazas de inferencia
+
+c) Sistema experto
+
+d) Ontología o grafo pequeño
+
+e) Seminario
+
+f) Revisión entre pares
+
+---
+
+## Navegación
+
+- [← Volver al repositorio principal](../README.md)
+- [Ir al subtema 3.1 →](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
+- [Ir al subtema 3.2 →](./3.2-redes-semanticas-marcos-ontologias/README.md)
+- [Ir al subtema 3.3 →](./3.3-sistemas-de-inferencia/README.md)
