@@ -8,6 +8,14 @@ Comprender cómo la lógica proposicional y la lógica de primer orden permiten 
 
 > **Enfoque del subtema:** En la Unidad 2 ya se estudiaron satisfacibilidad, CNF y DPLL. En este subtema la lógica se aborda principalmente como lenguaje de representación del conocimiento y como fundamento del razonamiento simbólico.
 
+
+<p align="center">
+  <img src="./imagenes/3.1-logica-proposicional-primer-orden.png"
+       alt="Flujo de representación del conocimiento: mundo real, representación lógica, base de conocimiento, inferencia y nuevo conocimiento"
+       width="100%">
+</p>
+
+
 ---
 
 ## 1. ¿Por qué necesita conocimiento un sistema de Inteligencia Artificial?
@@ -105,17 +113,17 @@ La **lógica proposicional** permite representar conocimiento mediante proposici
 
 Definamos:
 
-\[
+$$
 R = \text{R1 está operativo}
-\]
+$$
 
-\[
+$$
 C = \text{PC1 está conectado a R1}
-\]
+$$
 
-\[
+$$
 A = \text{PC1 tiene acceso a la red}
-\]
+$$
 
 Cada símbolo representa una afirmación completa del dominio.
 
@@ -135,9 +143,9 @@ Las proposiciones pueden combinarse mediante operadores lógicos.
 
 Por ejemplo:
 
-\[
+$$
 (R \land C) \rightarrow A
-\]
+$$
 
 se interpreta como:
 
@@ -151,31 +159,31 @@ La lógica permite transformar conocimiento expresado en lenguaje natural en una
 
 Supongamos que tenemos:
 
-\[
+$$
 R
-\]
+$$
 
 R1 está operativo.
 
-\[
+$$
 C
-\]
+$$
 
 PC1 está conectado a R1.
 
 Además:
 
-\[
+$$
 (R \land C) \rightarrow A
-\]
+$$
 
 Si R1 está operativo y PC1 está conectado, entonces PC1 tiene acceso a la red.
 
 Por tanto:
 
-\[
+$$
 A
-\]
+$$
 
 PC1 tiene acceso a la red.
 
@@ -193,9 +201,9 @@ La sintaxis establece **cómo pueden escribirse correctamente las expresiones**.
 
 Por ejemplo:
 
-\[
+$$
 R \land C
-\]
+$$
 
 es una expresión correctamente formada.
 
@@ -205,9 +213,9 @@ La semántica establece **qué significa una expresión y bajo qué condiciones 
 
 Por ejemplo:
 
-\[
+$$
 R \land C
-\]
+$$
 
 es verdadera únicamente cuando `R` y `C` son verdaderas.
 
@@ -219,39 +227,39 @@ En términos simples:
 
 ---
 
-## 8. Implicación lógica e inferencia
+## 8. Consecuencia lógica e inferencia
 
 Si una base de conocimiento contiene:
 
-\[
+$$
 R
-\]
+$$
 
-\[
+$$
 C
-\]
+$$
 
-\[
+$$
 (R \land C) \rightarrow A
-\]
+$$
 
 entonces puede concluirse:
 
-\[
+$$
 A
-\]
+$$
 
 La notación:
 
-\[
+$$
 KB \models A
-\]
+$$
 
 indica que **A es una consecuencia lógica de la base de conocimiento KB**.
 
 Es importante distinguir dos conceptos:
 
-### Implicación lógica
+### Consecuencia lógica (*entailment*)
 
 Es una relación semántica. Una conclusión debe ser verdadera en todos los modelos donde la base de conocimiento sea verdadera.
 
@@ -269,31 +277,31 @@ La lógica proposicional funciona adecuadamente cuando el dominio puede represen
 
 Supongamos que existen cien equipos. Sería necesario definir proposiciones como:
 
-\[
+$$
 C_1 = \text{PC1 está conectado}
-\]
+$$
 
-\[
+$$
 C_2 = \text{PC2 está conectado}
-\]
+$$
 
-\[
+$$
 C_3 = \text{PC3 está conectado}
-\]
+$$
 
 Además, sería necesario repetir reglas similares:
 
-\[
+$$
 C_1 \land R \rightarrow A_1
-\]
+$$
 
-\[
+$$
 C_2 \land R \rightarrow A_2
-\]
+$$
 
-\[
+$$
 C_3 \land R \rightarrow A_3
-\]
+$$
 
 Pero el conocimiento que queremos expresar realmente es general:
 
@@ -316,15 +324,15 @@ La **lógica de primer orden** (*First-Order Logic*, FOL) amplía la lógica pro
 
 En lógica proposicional podríamos representar:
 
-\[
+$$
 PC1ConectadoR1
-\]
+$$
 
 En lógica de primer orden podemos escribir:
 
-\[
+$$
 Conectado(PC1,R1)
-\]
+$$
 
 Ahora la expresión posee una estructura explícita:
 
@@ -340,17 +348,17 @@ Las **constantes** representan objetos específicos del dominio.
 
 Ejemplos:
 
-\[
+$$
 PC1
-\]
+$$
 
-\[
+$$
 Router1
-\]
+$$
 
-\[
+$$
 Servidor1
-\]
+$$
 
 Cada constante identifica una entidad concreta.
 
@@ -362,9 +370,9 @@ Los **predicados** permiten representar propiedades o relaciones.
 
 ### Propiedades
 
-\[
+$$
 Operativo(Router1)
-\]
+$$
 
 significa:
 
@@ -372,9 +380,9 @@ significa:
 
 Otro ejemplo:
 
-\[
+$$
 Servidor(Servidor1)
-\]
+$$
 
 significa:
 
@@ -382,9 +390,9 @@ significa:
 
 ### Relaciones
 
-\[
+$$
 Conectado(PC1,Router1)
-\]
+$$
 
 significa:
 
@@ -392,9 +400,9 @@ significa:
 
 Otro ejemplo:
 
-\[
+$$
 Administra(Ana,Servidor1)
-\]
+$$
 
 significa:
 
@@ -408,15 +416,15 @@ Una **variable** representa un objeto cualquiera del dominio.
 
 Por ejemplo:
 
-\[
+$$
 x
-\]
+$$
 
 Puede utilizarse en:
 
-\[
+$$
 Equipo(x)
-\]
+$$
 
 que puede interpretarse como:
 
@@ -430,9 +438,9 @@ Las variables permiten construir reglas generales cuando se combinan con cuantif
 
 El símbolo:
 
-\[
+$$
 \forall
-\]
+$$
 
 significa **para todo**.
 
@@ -442,9 +450,9 @@ Por ejemplo:
 
 puede representarse como:
 
-\[
+$$
 \forall x\;(Servidor(x) \rightarrow Dispositivo(x))
-\]
+$$
 
 Esto evita enumerar cada servidor individualmente.
 
@@ -458,11 +466,11 @@ Queremos representar la regla:
 
 Podemos escribir:
 
-\[
+$$
 \forall x\forall r
 ((Equipo(x) \land Router(r) \land Conectado(x,r) \land Operativo(r))
 \rightarrow TieneAcceso(x))
-\]
+$$
 
 La expresión puede interpretarse por partes:
 
@@ -480,9 +488,9 @@ Una sola regla puede aplicarse a cualquier número de equipos y routers.
 
 El símbolo:
 
-\[
+$$
 \exists
-\]
+$$
 
 significa **existe al menos uno**.
 
@@ -492,17 +500,17 @@ Por ejemplo:
 
 puede expresarse como:
 
-\[
+$$
 \exists x\;(Router(x) \land \neg Operativo(x))
-\]
+$$
 
 Otro ejemplo:
 
 > Existe algún equipo conectado a Router1.
 
-\[
+$$
 \exists x\;(Equipo(x) \land Conectado(x,Router1))
-\]
+$$
 
 ---
 
@@ -518,69 +526,69 @@ Router1
 
 ### Paso 2. Hechos
 
-\[
+$$
 Equipo(PC1)
-\]
+$$
 
-\[
+$$
 Equipo(PC2)
-\]
+$$
 
-\[
+$$
 Router(Router1)
-\]
+$$
 
-\[
+$$
 Conectado(PC1,Router1)
-\]
+$$
 
-\[
+$$
 Conectado(PC2,Router1)
-\]
+$$
 
-\[
+$$
 Operativo(Router1)
-\]
+$$
 
 ### Paso 3. Regla general
 
-\[
+$$
 \forall x\forall r
 ((Equipo(x) \land Router(r) \land Conectado(x,r) \land Operativo(r))
 \rightarrow TieneAcceso(x))
-\]
+$$
 
 ### Paso 4. Consulta
 
 Queremos determinar:
 
-\[
+$$
 TieneAcceso(PC1)?
-\]
+$$
 
 Como se conoce que:
 
-\[
+$$
 Conectado(PC1,Router1)
-\]
+$$
 
 Y:
 
-\[
+$$
 Operativo(Router1)
-\]
+$$
 
 el conocimiento disponible permite concluir:
 
-\[
+$$
 TieneAcceso(PC1)
-\]
+$$
 
 También puede concluirse:
 
-\[
+$$
 TieneAcceso(PC2)
-\]
+$$
 
 sin necesidad de escribir una regla independiente para PC2.
 
@@ -590,13 +598,13 @@ sin necesidad de escribir una regla independiente para PC2.
 
 Considere un sistema académico que conoce:
 
-\[
+$$
 Estudiante(Ana)
-\]
+$$
 
-\[
+$$
 Inscrito(Ana,IA)
-\]
+$$
 
 y dispone de la regla:
 
@@ -604,29 +612,29 @@ y dispone de la regla:
 
 Podemos representar:
 
-\[
+$$
 \forall x\forall y
 ((Estudiante(x) \land Inscrito(x,y))
 \rightarrow PuedeAcceder(x,y))
-\]
+$$
 
 Dado que:
 
-\[
+$$
 Estudiante(Ana)
-\]
+$$
 
 Y:
 
-\[
+$$
 Inscrito(Ana,IA)
-\]
+$$
 
 se puede concluir:
 
-\[
+$$
 PuedeAcceder(Ana,IA)
-\]
+$$
 
 El mismo conocimiento puede aplicarse a cientos de estudiantes sin crear reglas particulares para cada uno.
 
@@ -701,25 +709,25 @@ Estos problemas se estudiarán posteriormente en el subtema **3.4 Razonamiento n
 
 ### a) Confundir implicación con equivalencia
 
-\[
+$$
 Servidor(x) \rightarrow Dispositivo(x)
-\]
+$$
 
 significa que todo servidor es un dispositivo. No significa que todo dispositivo sea un servidor.
 
 ### b) Confundir un hecho particular con una regla general
 
-\[
+$$
 Operativo(Router1)
-\]
+$$
 
 describe solamente a Router1.
 
 Mientras que:
 
-\[
+$$
 \forall x\;(Router(x) \rightarrow Operativo(x))
-\]
+$$
 
 afirma que todos los routers están operativos.
 
@@ -727,15 +735,15 @@ afirma que todos los routers están operativos.
 
 En lógica proposicional:
 
-\[
+$$
 AnaAdministraServidor1
-\]
+$$
 
 En lógica de primer orden:
 
-\[
+$$
 Administra(Ana,Servidor1)
-\]
+$$
 
 La segunda representación captura explícitamente la relación entre los objetos.
 
@@ -743,15 +751,15 @@ La segunda representación captura explícitamente la relación entre los objeto
 
 Si la base de conocimiento no contiene:
 
-\[
+$$
 Operativo(Router2)
-\]
+$$
 
 no significa necesariamente:
 
-\[
+$$
 \neg Operativo(Router2)
-\]
+$$
 
 Puede significar simplemente que el sistema no dispone de información suficiente para determinar el estado de Router2.
 
@@ -826,7 +834,7 @@ Al finalizar este subtema, el estudiante será capaz de:
 
 ## Referencias principales
 
-- Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. Capítulos 7, 8 y 9
+- Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. Capítulos 7 y 8
 - Tecnológico Nacional de México. *Temario de la asignatura Introducción a la Inteligencia Artificial*. Maestría en Sistemas Computacionales
 - Tecnológico Nacional de México, Instituto Tecnológico de Zitácuaro. *Instrumentación Didáctica de Asignaturas de Posgrado: Introducción a la Inteligencia Artificial*. Periodo agosto-diciembre 2026
 
