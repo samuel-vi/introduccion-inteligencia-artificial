@@ -4,6 +4,16 @@
 
 **Estudiar formas estructuradas de representar conocimiento.**
 
+## Datos de la unidad
+
+| Elemento | Valor |
+|---|---|
+| Horas de trabajo | 6 horas |
+| Distribución | 3 horas teóricas + 3 horas prácticas |
+| Ponderación | 12% |
+| Producto global | Sistema simbólico documentado, ontología/grafo y reporte técnico |
+| Estrategias previstas | Diseño de base de conocimiento, trazas de inferencia, sistema experto, ontología o grafo pequeño, seminario y revisión entre pares |
+
 ---
 
 ## Descripción general
@@ -62,7 +72,7 @@ hasta:
 
 ---
 
-# 3.1 Lógica proposicional y lógica de primer orden
+## 3.1 Lógica proposicional y lógica de primer orden
 
 **Estado:** ✅ Disponible
 
@@ -88,7 +98,7 @@ h) Variables y cuantificadores
 
 i) Representación de conocimiento general
 
-## Recursos disponibles
+### Recursos disponibles
 
 - [Contenido académico](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
 - [Recursos complementarios](./3.1-logica-proposicional-y-logica-de-primer-orden/recursos/README.md)
@@ -96,7 +106,7 @@ i) Representación de conocimiento general
 - [Actividad de aprendizaje](./3.1-logica-proposicional-y-logica-de-primer-orden/actividades/README.md)
 - [Imágenes e infografías](./3.1-logica-proposicional-y-logica-de-primer-orden/imagenes/)
 
-## Secuencia sugerida
+### Secuencia sugerida
 
 **Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
 
@@ -104,7 +114,7 @@ La autoevaluación correspondiente al subtema 3.1 se realiza en Moodle.
 
 ---
 
-# 3.2 Redes semánticas, marcos y ontologías (OWL)
+## 3.2 Redes semánticas, marcos y ontologías (OWL)
 
 **Estado:** ✅ Disponible
 
@@ -128,7 +138,7 @@ g) OWL 2 como lenguaje para representar ontologías computables
 
 h) Conocimiento explícito e implícito mediante razonamiento básico
 
-## Recursos disponibles
+### Recursos disponibles
 
 - [Contenido académico](./3.2-redes-semanticas-marcos-ontologias/README.md)
 - [Recursos complementarios](./3.2-redes-semanticas-marcos-ontologias/recursos/README.md)
@@ -136,7 +146,7 @@ h) Conocimiento explícito e implícito mediante razonamiento básico
 - [Actividad de aprendizaje](./3.2-redes-semanticas-marcos-ontologias/actividades/README.md)
 - [Imágenes e infografías](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
 
-## Secuencia sugerida
+### Secuencia sugerida
 
 **Video → Apunte → Infografía → Recursos → Práctica con Protégé → Actividad → Autoevaluación**
 
@@ -144,7 +154,7 @@ La autoevaluación correspondiente al subtema 3.2 se realiza en Moodle.
 
 ---
 
-# 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
+## 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
 
 **Estado:** ✅ Disponible
 
@@ -174,7 +184,7 @@ j) Implementación didáctica en Python
 
 k) Limitaciones de la inferencia determinista
 
-## Recursos disponibles
+### Recursos disponibles
 
 - [Contenido académico](./3.3-sistemas-de-inferencia/README.md)
 - [Recursos complementarios](./3.3-sistemas-de-inferencia/recursos/README.md)
@@ -182,7 +192,7 @@ k) Limitaciones de la inferencia determinista
 - [Actividad de aprendizaje](./3.3-sistemas-de-inferencia/actividades/README.md)
 - [Imágenes e infografías](./3.3-sistemas-de-inferencia/imagenes/)
 
-## Secuencia sugerida
+### Secuencia sugerida
 
 **Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
 
@@ -190,7 +200,7 @@ La autoevaluación correspondiente al subtema 3.3 se realiza en Moodle.
 
 ---
 
-# 3.4 Razonamiento no monótono e incierto
+## 3.4 Razonamiento no monótono e incierto
 
 **Estado:** ✅ Disponible
 
@@ -218,7 +228,7 @@ i) Ejemplos integrados de conocimiento revisable
 
 j) Comparación práctica mediante un notebook en Python
 
-## Recursos disponibles
+### Recursos disponibles
 
 - [Contenido académico](./3.4-razonamiento-no-monotono-e-incierto/README.md)
 - [Recursos complementarios](./3.4-razonamiento-no-monotono-e-incierto/recursos/README.md)
@@ -226,7 +236,7 @@ j) Comparación práctica mediante un notebook en Python
 - [Actividad de aprendizaje](./3.4-razonamiento-no-monotono-e-incierto/actividades/README.md)
 - [Imágenes e infografías](./3.4-razonamiento-no-monotono-e-incierto/imagenes/)
 
-## Secuencia sugerida
+### Secuencia sugerida
 
 **Video → Apunte → Infografías → Recursos → Notebook → Actividad → Autoevaluación**
 
@@ -234,7 +244,7 @@ La autoevaluación correspondiente al subtema 3.4 se realiza en Moodle.
 
 ---
 
-# 3.5 Ontologías en la Web Semántica y grafos de conocimiento
+## 3.5 Ontologías en la Web Semántica y grafos de conocimiento
 
 **Estado:** ✅ Disponible
 
@@ -266,7 +276,7 @@ k) Mundo abierto e inferencia en grafos semánticos
 
 l) Construcción práctica de un minigrafo con RDFLib
 
-## Recursos disponibles
+### Recursos disponibles
 
 - [Contenido académico](./3.5-ontologias-web-semantica-grafos-conocimiento/README.md)
 - [Recursos complementarios](./3.5-ontologias-web-semantica-grafos-conocimiento/recursos/README.md)
@@ -274,7 +284,7 @@ l) Construcción práctica de un minigrafo con RDFLib
 - [Actividad de aprendizaje](./3.5-ontologias-web-semantica-grafos-conocimiento/actividades/README.md)
 - [Imágenes e infografías](./3.5-ontologias-web-semantica-grafos-conocimiento/imagenes/)
 
-## Secuencia sugerida
+### Secuencia sugerida
 
 **Video → Apunte → Infografías → Recursos → Notebook → Actividad → Autoevaluación**
 
@@ -392,31 +402,31 @@ j) Reporte técnico
 
 ## Actividad integradora de la unidad
 
-**Estado:** ⏳ Por desarrollar
+**Estado:** ✅ Disponible
 
-La actividad integradora articulará los cinco subtemas mediante el diseño de una solución simbólica para un dominio acotado.
+La actividad integradora articula los cinco subtemas mediante el desarrollo de una solución simbólica para un dominio acotado.
 
-De manera general, el estudiante deberá:
+El estudiante deberá integrar:
 
-a) Definir el dominio
+a) Representación formal del dominio
 
-b) Identificar conceptos, objetos y relaciones
+b) Base de conocimiento con hechos y reglas
 
-c) Representar conocimiento formalmente
+c) Inferencia hacia adelante o hacia atrás
 
-d) Formular reglas
+d) Trazas de inferencia
 
-e) Realizar inferencias
+e) Al menos una situación con excepción o conocimiento incompleto
 
-f) Incorporar excepciones o conocimiento incompleto cuando corresponda
+f) Una ontología o grafo pequeño
 
-g) Construir una ontología o grafo de conocimiento
+g) Consultas sobre el conocimiento representado
 
-h) Realizar consultas sobre el conocimiento representado
+h) Reporte técnico
 
-i) Documentar el proceso y las conclusiones
+i) Presentación breve y revisión entre pares
 
-La especificación definitiva se desarrollará como cierre de la Unidad 3.
+- [Consultar actividad integradora de la Unidad 3](./actividad-integradora/README.md)
 
 ---
 
@@ -476,3 +486,4 @@ El producto global de la unidad se orienta a un **sistema simbólico documentado
 - [Ir al subtema 3.3 →](./3.3-sistemas-de-inferencia/README.md)
 - [Ir al subtema 3.4 →](./3.4-razonamiento-no-monotono-e-incierto/README.md)
 - [Ir al subtema 3.5 →](./3.5-ontologias-web-semantica-grafos-conocimiento/README.md)
+- [Ir a la actividad integradora →](./actividad-integradora/README.md)
