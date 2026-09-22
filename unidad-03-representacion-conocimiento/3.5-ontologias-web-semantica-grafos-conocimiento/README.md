@@ -28,6 +28,14 @@ Grafos de conocimiento
 
 > **Pregunta central:** ¿cómo podemos representar conocimiento de forma que diferentes sistemas puedan identificar entidades, comprender sus relaciones y consultar esa información automáticamente?
 
+
+<p align="center">
+  <img src="./imagenes/3.5-web-semantica.png"
+       alt="Web Semántica: datos conectados y conocimiento"
+       width="100%">
+</p>
+
+
 ---
 
 ## 1. De la Web tradicional a la Web Semántica
@@ -304,6 +312,14 @@ Grafo
 | Profesor1 | imparte | IntroduccionIA |
 | IntroduccionIA | formaParteDe | MSC |
 | MSC | perteneceA | TecNM |
+
+
+<p align="center">
+  <img src="./imagenes/3.5-rdf-triples-grafo.png"
+       alt="RDF: triples y grafo"
+       width="100%">
+</p>
+
 
 ---
 
@@ -873,6 +889,14 @@ Responde:
 | Describe el dominio | Representa conocimiento del dominio |
 | Puede servir como esquema semántico | Puede utilizar ese esquema |
 
+
+<p align="center">
+  <img src="./imagenes/3.5-ontologia-vs-grafo-conocimiento.png"
+       alt="Ontología vs. grafo de conocimiento"
+       width="100%">
+</p>
+
+
 ```text
 ONTOLOGÍA
 Define las reglas del mundo
@@ -1291,4 +1315,3 @@ La **autoevaluación del subtema 3.5** se realizará en Moodle.
 
 - [← Volver a la Unidad 3](../README.md)
 - [← Subtema 3.4: Razonamiento no monótono e incierto](../3.4-razonamiento-no-monotono-e-incierto/README.md)
-
