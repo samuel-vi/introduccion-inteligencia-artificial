@@ -1,1317 +1,478 @@
+# Unidad 3. Representación del conocimiento y razonamiento
+
+## Objetivo de la unidad
+
+**Estudiar formas estructuradas de representar conocimiento.**
+
+---
+
+## Descripción general
+
+En esta unidad se estudian los fundamentos de la **representación del conocimiento en Inteligencia Artificial**, desde lenguajes lógicos y estructuras semánticas hasta mecanismos de inferencia, razonamiento revisable, ontologías y grafos de conocimiento.
+
+La unidad busca que el estudiante comprenda cómo un sistema inteligente puede:
+
+a) Representar hechos, objetos, propiedades y relaciones
+
+b) Organizar conocimiento de manera estructurada
+
+c) Utilizar reglas para obtener nuevas conclusiones
+
+d) Trabajar con conocimiento incompleto, revisable o incierto
+
+e) Utilizar ontologías y grafos de conocimiento en contextos como la Web Semántica
+
+---
+
+## Ruta de aprendizaje
+
+La progresión conceptual de la unidad es:
+
+```text
+3.1 Lógica proposicional y lógica de primer orden
+        ↓
+3.2 Redes semánticas, marcos y ontologías
+        ↓
+3.3 Sistemas de inferencia
+        ↓
+3.4 Razonamiento no monótono e incierto
+        ↓
+3.5 Web Semántica y grafos de conocimiento
+```
+
+La unidad avanza desde:
+
+> **¿Cómo representamos conocimiento?**
+
+hasta:
+
+> **¿Cómo puede un sistema organizarlo, inferir nuevas conclusiones, revisar lo que sabe y consultar conocimiento conectado?**
+
+---
+
+## Estado de avance
+
+| Subtema | Estado |
+|---|---|
+| 3.1 Lógica proposicional y lógica de primer orden | ✅ Disponible |
+| 3.2 Redes semánticas, marcos y ontologías (OWL) | ✅ Disponible |
+| 3.3 Sistemas de inferencia: hacia adelante y hacia atrás | ✅ Disponible |
+| 3.4 Razonamiento no monótono e incierto | ✅ Disponible |
+| 3.5 Ontologías en la Web Semántica y grafos de conocimiento | ✅ Disponible |
+
+---
+
+# 3.1 Lógica proposicional y lógica de primer orden
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudia cómo la lógica puede utilizarse como **lenguaje formal para representar conocimiento** y como fundamento del razonamiento simbólico.
+
+El estudiante trabajará con:
+
+a) Bases de conocimiento
+
+b) Hechos y reglas
+
+c) Lógica proposicional
+
+d) Sintaxis y semántica
+
+e) Consecuencia lógica e inferencia
+
+f) Lógica de primer orden
+
+g) Objetos, predicados y relaciones
+
+h) Variables y cuantificadores
+
+i) Representación de conocimiento general
+
+## Recursos disponibles
+
+- [Contenido académico](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
+- [Recursos complementarios](./3.1-logica-proposicional-y-logica-de-primer-orden/recursos/README.md)
+- [Notebook: Base de conocimiento e inferencia simple](./3.1-logica-proposicional-y-logica-de-primer-orden/notebooks/3.1-base-conocimiento-logica.ipynb)
+- [Actividad de aprendizaje](./3.1-logica-proposicional-y-logica-de-primer-orden/actividades/README.md)
+- [Imágenes e infografías](./3.1-logica-proposicional-y-logica-de-primer-orden/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.1 se realiza en Moodle.
+
+---
+
+# 3.2 Redes semánticas, marcos y ontologías (OWL)
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudian formas estructuradas de representar conocimiento, avanzando desde relaciones gráficas entre conceptos hasta la construcción de ontologías formales y computables.
+
+El estudiante trabajará con:
+
+a) Redes semánticas: nodos, arcos, conceptos, instancias y relaciones
+
+b) Relaciones estructurales como `subclase-de`, `instancia-de` y `parte-de`
+
+c) Jerarquías y herencia de propiedades
+
+d) Marcos clase y marcos instancia
+
+e) Ranuras, valores y facetas
+
+f) Ontologías: clases, individuos, propiedades, relaciones y axiomas
+
+g) OWL 2 como lenguaje para representar ontologías computables
+
+h) Conocimiento explícito e implícito mediante razonamiento básico
+
+## Recursos disponibles
+
+- [Contenido académico](./3.2-redes-semanticas-marcos-ontologias/README.md)
+- [Recursos complementarios](./3.2-redes-semanticas-marcos-ontologias/recursos/README.md)
+- [Práctica con Protégé y OWL 2](./3.2-redes-semanticas-marcos-ontologias/practica/README.md)
+- [Actividad de aprendizaje](./3.2-redes-semanticas-marcos-ontologias/actividades/README.md)
+- [Imágenes e infografías](./3.2-redes-semanticas-marcos-ontologias/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Práctica con Protégé → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.2 se realiza en Moodle.
+
+---
+
+# 3.3 Sistemas de inferencia: hacia adelante y hacia atrás
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudia cómo un sistema de Inteligencia Artificial utiliza una **base de hechos** y una **base de reglas** para obtener nuevas conclusiones mediante mecanismos de inferencia.
+
+El estudiante trabajará con:
+
+a) Componentes de un sistema de inferencia
+
+b) Base de hechos, base de reglas y memoria de trabajo
+
+c) Reglas de producción
+
+d) Encadenamiento hacia adelante (*forward chaining*)
+
+e) Encadenamiento hacia atrás (*backward chaining*)
+
+f) Trazas de inferencia
+
+g) Variables, equiparación y unificación básica
+
+h) Comparación entre razonamiento dirigido por datos y dirigido por metas
+
+i) Ejemplo integrado de sistema experto simbólico
+
+j) Implementación didáctica en Python
+
+k) Limitaciones de la inferencia determinista
+
+## Recursos disponibles
+
+- [Contenido académico](./3.3-sistemas-de-inferencia/README.md)
+- [Recursos complementarios](./3.3-sistemas-de-inferencia/recursos/README.md)
+- [Notebook: Forward y backward chaining](./3.3-sistemas-de-inferencia/notebooks/3.3-sistemas-de-inferencia.ipynb)
+- [Actividad de aprendizaje](./3.3-sistemas-de-inferencia/actividades/README.md)
+- [Imágenes e infografías](./3.3-sistemas-de-inferencia/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografía → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.3 se realiza en Moodle.
+
+---
+
+# 3.4 Razonamiento no monótono e incierto
+
+**Estado:** ✅ Disponible
+
+En este subtema se estudia cómo un sistema de Inteligencia Artificial puede razonar cuando la información disponible es incompleta, contiene excepciones o puede cambiar.
+
+El estudiante trabajará con:
+
+a) Razonamiento monotónico y no monotónico
+
+b) Conocimiento incompleto
+
+c) Reglas por defecto
+
+d) Excepciones
+
+e) Revisión y retractación de conclusiones
+
+f) Negación como falla
+
+g) Mundo abierto y mundo cerrado
+
+h) Introducción conceptual a la incertidumbre
+
+i) Ejemplos integrados de conocimiento revisable
+
+j) Comparación práctica mediante un notebook en Python
+
+## Recursos disponibles
+
+- [Contenido académico](./3.4-razonamiento-no-monotono-e-incierto/README.md)
+- [Recursos complementarios](./3.4-razonamiento-no-monotono-e-incierto/recursos/README.md)
+- [Notebook comparativo](./3.4-razonamiento-no-monotono-e-incierto/notebooks/3.4-razonamiento-monotono-no-monotono.ipynb)
+- [Actividad de aprendizaje](./3.4-razonamiento-no-monotono-e-incierto/actividades/README.md)
+- [Imágenes e infografías](./3.4-razonamiento-no-monotono-e-incierto/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografías → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.4 se realiza en Moodle.
+
+---
+
 # 3.5 Ontologías en la Web Semántica y grafos de conocimiento
 
-## Propósito del subtema
+**Estado:** ✅ Disponible
 
-Comprender cómo las ontologías se utilizan en la **Web Semántica** y en los **grafos de conocimiento** para representar, vincular y consultar información estructurada mediante tecnologías como **RDF, RDFS, OWL y SPARQL**.
+En este subtema se estudia cómo las ontologías se utilizan en la **Web Semántica** y en los **grafos de conocimiento** para representar, vincular y consultar información estructurada.
 
-Este subtema integra conceptos trabajados previamente en la Unidad 3:
+El estudiante trabajará con:
+
+a) Web Semántica
+
+b) IRI e identificación de recursos
+
+c) RDF y triples
+
+d) RDF/Turtle
+
+e) RDFS
+
+f) OWL
+
+g) SPARQL
+
+h) Linked Data
+
+i) Grafos de conocimiento
+
+j) Diferencia entre ontología y grafo de conocimiento
+
+k) Mundo abierto e inferencia en grafos semánticos
+
+l) Construcción práctica de un minigrafo con RDFLib
+
+## Recursos disponibles
+
+- [Contenido académico](./3.5-ontologias-web-semantica-grafos-conocimiento/README.md)
+- [Recursos complementarios](./3.5-ontologias-web-semantica-grafos-conocimiento/recursos/README.md)
+- [Notebook RDFLib + SPARQL](./3.5-ontologias-web-semantica-grafos-conocimiento/notebooks/3.5-rdflib-sparql.ipynb)
+- [Actividad de aprendizaje](./3.5-ontologias-web-semantica-grafos-conocimiento/actividades/README.md)
+- [Imágenes e infografías](./3.5-ontologias-web-semantica-grafos-conocimiento/imagenes/)
+
+## Secuencia sugerida
+
+**Video → Apunte → Infografías → Recursos → Notebook → Actividad → Autoevaluación**
+
+La autoevaluación correspondiente al subtema 3.5 se realiza en Moodle.
+
+---
+
+# Integración conceptual de la Unidad 3
+
+Los cinco subtemas forman una secuencia continua.
+
+En **3.1**, el conocimiento se representa mediante:
+
+**Hechos + reglas + expresiones lógicas**
+
+En **3.2**, ese conocimiento se organiza mediante:
+
+**Conceptos + relaciones + propiedades + jerarquías + ontologías**
+
+En **3.3**, el sistema utiliza ese conocimiento para razonar mediante:
+
+**Hechos + reglas + motor de inferencia + trazas**
+
+En **3.4**, se analiza qué ocurre cuando el conocimiento es:
+
+**Incompleto + revisable + sujeto a excepciones**
+
+En **3.5**, el conocimiento se transforma en información:
+
+**Identificable + enlazada + estructurada + consultable**
+
+La progresión completa puede resumirse como:
 
 ```text
-3.2
-Ontologías
-Clases
-Propiedades
-Individuos
-OWL
+Situación del mundo real
         ↓
-3.4
-Conocimiento incompleto
-Mundo abierto
+Representación lógica
         ↓
-3.5
-RDF
-Web Semántica
-Datos enlazados
-SPARQL
-Grafos de conocimiento
-```
-
-> **Pregunta central:** ¿cómo podemos representar conocimiento de forma que diferentes sistemas puedan identificar entidades, comprender sus relaciones y consultar esa información automáticamente?
-
-
-<p align="center">
-  <img src="./imagenes/3.5-web-semantica.png"
-       alt="Web Semántica: datos conectados y conocimiento"
-       width="100%">
-</p>
-
-
----
-
-## 1. De la Web tradicional a la Web Semántica
-
-La Web convencional está formada principalmente por:
-
-```text
-Páginas
-Documentos
-Texto
-Imágenes
-Hipervínculos
-```
-
-Estos recursos están diseñados principalmente para que las personas los interpreten.
-
-Por ejemplo:
-
-```text
-Ana estudia Inteligencia Artificial.
-Ana pertenece a la Maestría en Sistemas Computacionales.
-La Maestría pertenece al TecNM.
-```
-
-Una persona puede reconocer fácilmente entidades y relaciones:
-
-```text
-Entidades:
-Ana
-Inteligencia Artificial
-Maestría en Sistemas Computacionales
-TecNM
-
-Relaciones:
-estudia
-perteneceA
-```
-
-El problema es que, si la información se encuentra únicamente como texto, un sistema computacional no necesariamente dispone de una representación explícita de esas relaciones.
-
-Podemos hacerlas visibles mediante:
-
-```text
-Ana ── estudia ──► InteligenciaArtificial
-```
-
-Ahora distinguimos:
-
-```text
-Entidad
-Relación
-Entidad
-```
-
-Este cambio es fundamental para representar conocimiento de manera procesable.
-
----
-
-## 2. ¿Qué es la Web Semántica?
-
-La **Web Semántica** propone representar datos en la Web de forma estructurada y con relaciones explícitas, utilizando estándares que permitan que diferentes sistemas puedan interpretar e integrar esa información.
-
-No significa que la Web “piense” como una persona.
-
-La idea es proporcionar una representación formal del significado de los datos.
-
-```text
-Datos
-  +
-Identificadores
-  +
-Relaciones
-  +
-Vocabularios
-  =
-Información procesable semánticamente
-```
-
-### 2.1 Ejemplo
-
-```text
-Ana ── cursa ──► IntroduccionIA
-
-IntroduccionIA ── formaParteDe ──► MSC
-
-MSC ── perteneceA ──► TecNM
-```
-
-La información deja de ser únicamente texto y comienza a formar una red de entidades relacionadas.
-
----
-
-## 3. Tecnologías principales de la Web Semántica
-
-Para este subtema trabajaremos con cinco componentes fundamentales:
-
-```text
-IRI
- ↓
-RDF
- ↓
-RDFS
- ↓
-OWL
- ↓
-SPARQL
-```
-
-| Tecnología | Función principal |
-|---|---|
-| IRI | Identificar recursos |
-| RDF | Representar hechos mediante triples |
-| RDFS | Definir vocabulario y jerarquías básicas |
-| OWL | Representar conocimiento y restricciones más expresivas |
-| SPARQL | Consultar datos RDF |
-
-Estas tecnologías cumplen funciones complementarias.
-
----
-
-## 4. IRI e identificación de recursos
-
-Un **IRI** (*Internationalized Resource Identifier*) permite identificar un recurso de forma inequívoca dentro de un contexto determinado.
-
-Ejemplos:
-
-```text
-http://ejemplo.org/personas/Ana
-http://ejemplo.org/programas/MSC
-http://ejemplo.org/asignaturas/IntroduccionIA
-```
-
-La idea es:
-
-```text
-Nombre local
-     ↓
-Identificador global
-     ↓
-Recurso distinguible
-```
-
-### 4.1 ¿Para qué sirve un IRI?
-
-Puede identificar:
-
-a) Una persona
-
-b) Una institución
-
-c) Una asignatura
-
-d) Una clase
-
-e) Una propiedad
-
-f) Cualquier otro recurso representado en el grafo
-
-En RDF, tanto las entidades como las propiedades pueden identificarse mediante IRIs.
-
----
-
-## 5. RDF: Resource Description Framework
-
-**RDF** es un modelo para representar información mediante declaraciones estructuradas.
-
-Su unidad fundamental es el **triple**:
-
-```text
-Sujeto ── Predicado ──► Objeto
-```
-
-También puede escribirse:
-
-```text
-(Sujeto, Predicado, Objeto)
-```
-
-### 5.1 Ejemplo
-
-```text
-(Ana, cursa, IntroduccionIA)
-```
-
-Visualmente:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-```
-
-Tenemos:
-
-```text
-Sujeto:
-Ana
-
-Predicado:
-cursa
-
-Objeto:
-IntroduccionIA
-```
-
-### 5.2 Varios triples
-
-```text
-(Ana, cursa, IntroduccionIA)
-
-(Profesor1, imparte, IntroduccionIA)
-
-(IntroduccionIA, formaParteDe, MSC)
-
-(MSC, perteneceA, TecNM)
-```
-
----
-
-## 6. De los triples al grafo
-
-Cuando agregamos varios triples, obtenemos naturalmente una estructura de grafo.
-
-```text
-                    Profesor1
-                        │
-                     imparte
-                        ↓
-Ana ── cursa ──► IntroduccionIA
-                        │
-                   formaParteDe
-                        ↓
-                       MSC
-                        │
-                    perteneceA
-                        ↓
-                      TecNM
-```
-
-> **Un conjunto de triples RDF puede interpretarse naturalmente como un grafo.**
-
-### 6.1 Nodos
-
-```text
-Ana
-Profesor1
-IntroduccionIA
-MSC
-TecNM
-```
-
-### 6.2 Relaciones
-
-```text
-cursa
-imparte
-formaParteDe
-perteneceA
-```
-
-Por tanto:
-
-```text
-Nodos
-  +
-Relaciones
-  =
-Grafo
-```
-
-### 6.3 Representación tabular
-
-| Sujeto | Predicado | Objeto |
-|---|---|---|
-| Ana | cursa | IntroduccionIA |
-| Profesor1 | imparte | IntroduccionIA |
-| IntroduccionIA | formaParteDe | MSC |
-| MSC | perteneceA | TecNM |
-
-
-<p align="center">
-  <img src="./imagenes/3.5-rdf-triples-grafo.png"
-       alt="RDF: triples y grafo"
-       width="100%">
-</p>
-
-
----
-
-## 7. ¿Qué puede aparecer en un triple RDF?
-
-Un triple RDF tiene:
-
-```text
-Sujeto
-Predicado
-Objeto
-```
-
-### 7.1 Sujeto
-
-Identifica el recurso del que estamos hablando.
-
-```text
-Ana
-```
-
-### 7.2 Predicado
-
-Identifica la propiedad o relación.
-
-```text
-cursa
-```
-
-### 7.3 Objeto
-
-Puede ser otro recurso:
-
-```text
-IntroduccionIA
-```
-
-o un valor literal:
-
-```text
-"2026"
-25
-6
-```
-
-Ejemplos:
-
-```text
-Ana ── nombre ──► "Ana"
-
-IntroduccionIA ── creditos ──► 6
-```
-
----
-
-## 8. RDF/Turtle: una forma de escribir el grafo
-
-Una de las serializaciones más utilizadas para RDF es **Turtle**.
-
-### 8.1 Definición de un prefijo
-
-```turtle
-@prefix ex: <http://ejemplo.org/> .
-```
-
-Después:
-
-```turtle
-ex:Ana ex:cursa ex:IntroduccionIA .
-```
-
-representa:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-```
-
-### 8.2 Varios triples
-
-```turtle
-@prefix ex: <http://ejemplo.org/> .
-
-ex:Ana
-    ex:cursa ex:IntroduccionIA .
-
-ex:Profesor1
-    ex:imparte ex:IntroduccionIA .
-
-ex:IntroduccionIA
-    ex:formaParteDe ex:MSC .
-
-ex:MSC
-    ex:perteneceA ex:TecNM .
-```
-
-### 8.3 Agrupación de propiedades
-
-```turtle
-ex:Ana
-    ex:cursa ex:IntroduccionIA ;
-    ex:perteneceA ex:MSC .
-```
-
-Esto representa dos triples con el mismo sujeto.
-
-### 8.4 Literales
-
-```turtle
-ex:Ana
-    ex:nombre "Ana" ;
-    ex:edad 25 .
-```
-
-### 8.5 Tipo de recurso
-
-```turtle
-ex:Ana rdf:type ex:Estudiante .
-```
-
-En Turtle también puede escribirse:
-
-```turtle
-ex:Ana a ex:Estudiante .
-```
-
-La expresión `a` es una abreviatura de `rdf:type`.
-
----
-
-## 9. RDF vs. RDFS vs. OWL
-
-Estas tecnologías están relacionadas, pero cumplen funciones diferentes.
-
-### 9.1 RDF: representar hechos
-
-```turtle
-ex:Ana ex:cursa ex:IntroduccionIA .
-```
-
-Representa el hecho:
-
-```text
-Ana cursa IntroduccionIA
-```
-
-### 9.2 RDFS: definir estructura básica
-
-```turtle
-ex:Estudiante a rdfs:Class .
-```
-
-También:
-
-```turtle
-ex:EstudiantePosgrado
-    rdfs:subClassOf ex:Estudiante .
-```
-
-Conceptualmente:
-
-```text
-EstudiantePosgrado
+Base de conocimiento
         ↓
-subclase de
+Representación estructurada
         ↓
-Estudiante
-```
-
-### 9.3 Dominio y rango
-
-```turtle
-ex:cursa
-    rdfs:domain ex:Estudiante ;
-    rdfs:range ex:Asignatura .
-```
-
-Conceptualmente:
-
-```text
-Estudiante ── cursa ──► Asignatura
-```
-
-En RDFS, `domain` y `range` tienen significado inferencial.
-
-Si:
-
-```turtle
-ex:Ana ex:cursa ex:IntroduccionIA .
-```
-
-y:
-
-```turtle
-ex:cursa rdfs:domain ex:Estudiante .
-```
-
-un razonador puede inferir:
-
-```text
-Ana es Estudiante
-```
-
-De manera semejante, si:
-
-```turtle
-ex:cursa rdfs:range ex:Asignatura .
-```
-
-puede inferirse:
-
-```text
-IntroduccionIA es Asignatura
-```
-
-Esto conecta con el subtema 3.3.
-
-### 9.4 OWL: conocimiento más expresivo
-
-OWL permite expresar conocimiento y restricciones más ricas, por ejemplo:
-
-```text
-Clases equivalentes
-Clases disjuntas
-Restricciones
-Cardinalidades
-Propiedades inversas
-Características de propiedades
-```
-
-Ejemplo conceptual:
-
-```text
-AsignaturaPosgrado
-≡
-Asignatura
-AND
-formaParteDe SOME ProgramaPosgrado
-```
-
-### 9.5 Comparación
-
-| Tecnología | Pregunta principal |
-|---|---|
-| RDF | ¿Qué hechos existen? |
-| RDFS | ¿Cómo está estructurado el vocabulario? |
-| OWL | ¿Qué conocimiento y restricciones más expresivas podemos representar? |
-
----
-
-## 10. SPARQL: consultar un grafo RDF
-
-SPARQL permite formular consultas sobre grafos RDF mediante patrones.
-
-### 10.1 Primer ejemplo
-
-Supongamos:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-Luis ── cursa ──► BasesDatos
-Maria ── cursa ──► IntroduccionIA
-```
-
-Pregunta:
-
-> ¿Quién cursa Introducción a la Inteligencia Artificial?
-
-Consulta:
-
-```sparql
-PREFIX ex: <http://ejemplo.org/>
-
-SELECT ?estudiante
-WHERE {
-    ?estudiante ex:cursa ex:IntroduccionIA .
-}
-```
-
-Resultado:
-
-```text
-Ana
-Maria
-```
-
-### 10.2 Variables
-
-```text
-?estudiante
-```
-
-representa una variable.
-
-La consulta:
-
-```sparql
-?estudiante ex:cursa ex:IntroduccionIA .
-```
-
-busca triples que coincidan con:
-
-```text
-(?estudiante, cursa, IntroduccionIA)
-```
-
-### 10.3 Varias condiciones
-
-```sparql
-PREFIX ex: <http://ejemplo.org/>
-
-SELECT ?estudiante
-WHERE {
-    ?estudiante ex:cursa ex:IntroduccionIA .
-    ?estudiante ex:perteneceA ex:MSC .
-}
-```
-
-### 10.4 Relaciones encadenadas
-
-```sparql
-PREFIX ex: <http://ejemplo.org/>
-
-SELECT ?institucion
-WHERE {
-    ex:Ana ex:cursa ?asignatura .
-    ?asignatura ex:formaParteDe ?programa .
-    ?programa ex:perteneceA ?institucion .
-}
-```
-
-Conceptualmente:
-
-```text
-Ana
- ↓ cursa
-Asignatura
- ↓ formaParteDe
-Programa
- ↓ perteneceA
-Institucion
-```
-
-### 10.5 SPARQL como búsqueda de patrones
-
-```text
-Grafo completo
-      ↓
-Patrón solicitado
-      ↓
-Coincidencias
-      ↓
-Resultados
-```
-
-### 10.6 Consulta e inferencia no son lo mismo
-
-SPARQL:
-
-```text
-Consulta información
-```
-
-La inferencia puede provenir de:
-
-```text
-RDFS
-OWL
-Reglas
-Razonadores
-```
-
-Por tanto:
-
-```text
-Ontología / grafo
-       ↓
-Razonamiento
-       ↓
-Nuevos hechos inferidos
-       ↓
-Consulta
-```
-
----
-
-## 11. Linked Data: datos enlazados
-
-**Linked Data** propone conectar datos distribuidos mediante identificadores y relaciones explícitas.
-
-```text
-Datos de una fuente
+Redes semánticas / marcos / ontologías
         ↓
-se conectan con
+Motor de inferencia
         ↓
-Datos de otras fuentes
-```
-
-### 11.1 Principios básicos
-
-a) Utilizar identificadores globales para los recursos
-
-b) Utilizar identificadores consultables en la Web
-
-c) Proporcionar información estructurada sobre esos recursos
-
-d) Incluir enlaces hacia otros recursos relacionados
-
-### 11.2 Ejemplo
-
-```text
-Investigador1
-      │
-      ├── participaEn ──► ProyectoIA
-      │
-      └── autorDe ──────► Articulo1
-
-ProyectoIA
-      │
-      └── perteneceA ───► Institucion1
-```
-
----
-
-## 12. Grafos de conocimiento
-
-Un **grafo de conocimiento** representa entidades de un dominio y las relaciones existentes entre ellas mediante una estructura de nodos y aristas.
-
-```text
-Entidades
-   +
-Relaciones
-   +
-Semántica
-   =
+Forward chaining / backward chaining
+        ↓
+Conclusiones
+        ↓
+Nueva información / excepciones
+        ↓
+Revisión de conclusiones
+        ↓
+RDF / RDFS / OWL
+        ↓
 Grafo de conocimiento
-```
-
-Ejemplo:
-
-```text
-Ana
- │
- ├── cursa ─────────────► IntroduccionIA
- │
- └── perteneceA ────────► MSC
-
-Profesor1
- │
- └── imparte ───────────► IntroduccionIA
-
-MSC
- │
- └── perteneceA ────────► TecNM
-```
-
-### 12.1 Nodos
-
-```text
-Ana
-Profesor1
-IntroduccionIA
-MSC
-TecNM
-```
-
-### 12.2 Aristas
-
-```text
-cursa
-imparte
-perteneceA
-formaParteDe
-```
-
-### 12.3 Propiedades
-
-```text
-Ana
- ├── nombre → "Ana"
- └── matricula → "M001"
-```
-
-### 12.4 No todo grafo es un grafo de conocimiento
-
-Un grafo matemático puede carecer de significado explícito.
-
-En cambio:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-```
-
-tiene semántica.
-
-### 12.5 No todos los grafos de conocimiento utilizan RDF y OWL
-
-Pueden implementarse con distintas tecnologías.
-
-En este curso nos enfocaremos en:
-
-```text
-Web Semántica
-+
-RDF
-+
-Ontologías
-```
-
----
-
-## 13. Ontología vs. grafo de conocimiento
-
-### 13.1 Ontología
-
-Define el modelo conceptual del dominio.
-
-```text
-Clases:
-Estudiante
-Profesor
-Asignatura
-Programa
-Institucion
-
-Propiedades:
-cursa
-imparte
-formaParteDe
-perteneceA
-```
-
-Responde:
-
-> **¿Qué tipos de cosas existen en este dominio y cómo pueden relacionarse?**
-
-### 13.2 Grafo de conocimiento
-
-Contiene instancias y hechos concretos.
-
-```text
-Ana → Estudiante
-IntroduccionIA → Asignatura
-MSC → Programa
-TecNM → Institucion
-```
-
-y:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-IntroduccionIA ── formaParteDe ──► MSC
-MSC ── perteneceA ──► TecNM
-```
-
-Responde:
-
-> **¿Qué entidades concretas conocemos y qué relaciones existen entre ellas?**
-
-### 13.3 Comparación
-
-| Ontología | Grafo de conocimiento |
-|---|---|
-| Define clases | Contiene entidades |
-| Define propiedades | Contiene relaciones concretas |
-| Define jerarquías | Contiene instancias |
-| Puede definir restricciones | Contiene hechos |
-| Describe el dominio | Representa conocimiento del dominio |
-| Puede servir como esquema semántico | Puede utilizar ese esquema |
-
-
-<p align="center">
-  <img src="./imagenes/3.5-ontologia-vs-grafo-conocimiento.png"
-       alt="Ontología vs. grafo de conocimiento"
-       width="100%">
-</p>
-
-
-```text
-ONTOLOGÍA
-Define las reglas del mundo
-
         ↓
-
-GRAFO DE CONOCIMIENTO
-Representa lo que sabemos de ese mundo
-```
-
----
-
-## 14. Construcción de un pequeño grafo de conocimiento
-
-### Paso 1. Definir el dominio
-
-```text
-Sistema académico de posgrado
-```
-
-### Paso 2. Identificar tipos de entidades
-
-```text
-Estudiante
-Profesor
-Asignatura
-Programa
-Institucion
-```
-
-### Paso 3. Identificar relaciones
-
-```text
-cursa
-imparte
-formaParteDe
-perteneceA
-```
-
-### Paso 4. Crear instancias
-
-```text
-Ana
-Luis
-Profesor1
-IntroduccionIA
-BasesDatos
-MSC
-TecNM
-```
-
-### Paso 5. Crear triples
-
-```text
-(Ana, cursa, IntroduccionIA)
-
-(Luis, cursa, BasesDatos)
-
-(Profesor1, imparte, IntroduccionIA)
-
-(IntroduccionIA, formaParteDe, MSC)
-
-(BasesDatos, formaParteDe, MSC)
-
-(MSC, perteneceA, TecNM)
-```
-
-### Paso 6. Formular preguntas
-
-```text
-¿Qué asignaturas cursa Ana?
-
-¿Qué profesor imparte IntroduccionIA?
-
-¿A qué programa pertenece IntroduccionIA?
-
-¿A qué institución pertenece ese programa?
-```
-
----
-
-## 15. Aplicaciones de los grafos de conocimiento
-
-### 15.1 Búsqueda semántica
-
-Permiten aprovechar relaciones entre entidades y conceptos.
-
-### 15.2 Sistemas de recomendación
-
-```text
-Usuario ── interesadoEn ──► IA
-
-Curso1 ── trataSobre ──► IA
-```
-
-### 15.3 Sistemas de preguntas y respuestas
-
-```text
-Profesor
-   ↓ imparte
-Asignatura
-   ↓ formaParteDe
-MSC
-```
-
-### 15.4 Integración de información
-
-```text
-Investigador1
- ├── autorDe ─────► Articulo1
- ├── participaEn ─► Proyecto1
- └── perteneceA ──► Institucion1
-```
-
-### 15.5 Sistemas expertos
-
-```text
-Ontologías
-+
-Grafos de conocimiento
-+
-Reglas
-+
-Inferencia
-```
-
-### 15.6 Relación con sistemas actuales
-
-Los grafos de conocimiento aportan información:
-
-```text
-Estructurada
-Relacionada
-Identificable
-Consultable
-```
-
-Conceptos como:
-
-```text
-Graph Neural Networks
-Knowledge Graph Embeddings
-GraphRAG
-```
-
-quedan fuera del alcance de este subtema.
-
----
-
-## 16. Mundo abierto y grafos semánticos
-
-Este punto conecta con el subtema 3.4.
-
-Si el grafo contiene:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-```
-
-pero no contiene:
-
-```text
-Luis ── cursa ──► IntroduccionIA
-```
-
-en un entorno de mundo abierto no debemos concluir automáticamente:
-
-```text
-Luis no cursa IntroduccionIA
-```
-
-Lo correcto puede ser:
-
-```text
-No tenemos información suficiente
-```
-
-Por tanto:
-
-```text
-Ausencia de un triple
-        ≠
-Negación del triple
-```
-
----
-
-## 17. Inferencia en un grafo de conocimiento
-
-Un grafo puede contener hechos explícitos y permitir obtener información derivada.
-
-Supongamos:
-
-```text
-EstudiantePosgrado
-      ↓ subclase de
-Estudiante
-```
-
-y:
-
-```text
-Ana → EstudiantePosgrado
-```
-
-Un razonador puede inferir:
-
-```text
-Ana → Estudiante
-```
-
-La secuencia es:
-
-```text
-Conocimiento explícito
-        ↓
-Reglas / semántica
-        ↓
-Inferencia
-        ↓
-Conocimiento derivado
-```
-
-### 17.1 Ejemplo con dominio
-
-```text
-cursa
-domain → Estudiante
-```
-
-y:
-
-```text
-Ana ── cursa ──► IntroduccionIA
-```
-
-puede permitir inferir:
-
-```text
-Ana → Estudiante
-```
-
----
-
-## 18. Limitaciones y retos
-
-### 18.1 Calidad de los datos
-
-```text
-Datos incorrectos
-       ↓
-Grafo incorrecto
-       ↓
-Consultas o inferencias incorrectas
-```
-
-### 18.2 Duplicidad de entidades
-
-Dos identificadores pueden representar la misma entidad.
-
-### 18.3 Diferentes vocabularios
-
-Un sistema puede utilizar:
-
-```text
-cursa
-```
-
-y otro:
-
-```text
-estaInscritoEn
-```
-
-para relaciones similares.
-
-### 18.4 Actualización del conocimiento
-
-Una relación puede ser válida en un periodo y dejar de serlo posteriormente.
-
-### 18.5 Escalabilidad
-
-Un grafo real puede contener miles o millones de relaciones.
-
-### 18.6 Diseño de la ontología
-
-La calidad de:
-
-```text
-Clases
-Relaciones
-Jerarquías
-Identificadores
-Restricciones
-```
-
-afecta directamente la utilidad del grafo.
-
----
-
-## 19. Síntesis del subtema
-
-```text
-MUNDO REAL
-    ↓
-Entidades
-    ↓
-IRI
-    ↓
-Triples RDF
-    ↓
-Grafo RDF
-    ↓
-RDFS / OWL
-    ↓
-Ontología
-    ↓
-Grafo de conocimiento
-    ↓
 SPARQL
-    ↓
+        ↓
 Consulta e inferencia
 ```
 
-Otra forma de verlo:
+---
+
+## Forma sugerida de trabajo
+
+Para cada subtema se recomienda seguir una secuencia común:
 
 ```text
-ONTOLOGÍA
-Define:
-qué entidades existen
-qué relaciones pueden tener
-qué restricciones aplican
-
-        +
-
-DATOS
-Instancias y hechos concretos
-
+Video introductorio
         ↓
-
-GRAFO DE CONOCIMIENTO
+Contenido académico
+        ↓
+Recurso visual
+        ↓
+Recursos complementarios
+        ↓
+Práctica o notebook
+        ↓
+Actividad aplicada
+        ↓
+Autoevaluación
 ```
 
-Finalmente:
-
-```text
-GRAFO
-   +
-CONSULTA
-   +
-INFERENCIA
-   =
-CONOCIMIENTO UTILIZABLE
-```
+Cuando el contenido requiere una herramienta especializada, como en 3.2, la práctica se realiza con **Protégé**. Cuando el objetivo se beneficia de programación, como en 3.1, 3.3, 3.4 y 3.5, se utiliza un notebook didáctico.
 
 ---
 
-## 20. Integración de toda la Unidad 3
+## Productos de la unidad
 
-```text
-3.1
-Lógica
-¿Cómo representamos formalmente conocimiento?
-        ↓
+A lo largo de la unidad se integran progresivamente los siguientes productos:
 
-3.2
-Redes semánticas, marcos y ontologías
-¿Cómo organizamos el conocimiento?
-        ↓
+a) Bases de conocimiento
 
-3.3
-Sistemas de inferencia
-¿Cómo obtenemos nuevas conclusiones?
-        ↓
+b) Representaciones lógicas
 
-3.4
-Razonamiento no monotónico e incierto
-¿Qué ocurre con conocimiento incompleto o revisable?
-        ↓
+c) Representaciones mediante redes semánticas y marcos
 
-3.5
-Web Semántica y grafos de conocimiento
-¿Cómo representamos, vinculamos y consultamos
-conocimiento estructurado?
-```
+d) Ontologías
 
-> **Resultado esperado:** al finalizar 3.5, el estudiante podrá explicar y aplicar la relación **Ontología → RDF → Grafo → SPARQL → Consulta e inferencia**, distinguiendo además entre una ontología y un grafo de conocimiento.
+e) Trazas de inferencia
+
+f) Sistema simbólico
+
+g) Representación de conocimiento revisable
+
+h) Grafo de conocimiento
+
+i) Consultas SPARQL
+
+j) Reporte técnico
 
 ---
 
-## Recursos complementarios
+## Actividad integradora de la unidad
 
-- [Recursos del subtema](./recursos/README.md)
-- [Notebook RDFLib + SPARQL](./notebooks/3.5-rdflib-sparql.ipynb)
-- [Actividad de aprendizaje](./actividades/README.md)
-- [Imágenes e infografías](./imagenes/)
+**Estado:** ⏳ Por desarrollar
 
-La **autoevaluación del subtema 3.5** se realizará en Moodle.
+La actividad integradora articulará los cinco subtemas mediante el diseño de una solución simbólica para un dominio acotado.
+
+De manera general, el estudiante deberá:
+
+a) Definir el dominio
+
+b) Identificar conceptos, objetos y relaciones
+
+c) Representar conocimiento formalmente
+
+d) Formular reglas
+
+e) Realizar inferencias
+
+f) Incorporar excepciones o conocimiento incompleto cuando corresponda
+
+g) Construir una ontología o grafo de conocimiento
+
+h) Realizar consultas sobre el conocimiento representado
+
+i) Documentar el proceso y las conclusiones
+
+La especificación definitiva se desarrollará como cierre de la Unidad 3.
 
 ---
 
-## Referencias base
+## Evidencias de aprendizaje
 
-- W3C. *RDF 1.1 Concepts and Abstract Syntax*.
-- W3C. *RDF 1.1 Turtle*.
-- W3C. *RDF Schema 1.1*.
-- W3C. *OWL 2 Web Ontology Language Primer*.
-- W3C. *SPARQL 1.1 Query Language*.
-- Poole, D. L., & Mackworth, A. K. (2023). *Artificial Intelligence: Foundations of Computational Agents* (3rd ed.).
-- Russell, S. J., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
-- Temario oficial de la asignatura **Introducción a la Inteligencia Artificial**, Maestría en Sistemas Computacionales, TecNM.
+Las evidencias previstas para la unidad incluyen:
+
+a) Representaciones formales de conocimiento
+
+b) Actividades de modelado lógico
+
+c) Notebooks de experimentación
+
+d) Modelos mediante redes semánticas y marcos
+
+e) Ontología desarrollada en Protégé
+
+f) Trazas de inferencia
+
+g) Sistema simbólico documentado
+
+h) Análisis de conocimiento revisable
+
+i) Grafo de conocimiento pequeño
+
+j) Consultas SPARQL
+
+k) Reporte técnico
+
+---
+
+## Evaluación
+
+De acuerdo con la instrumentación didáctica, la unidad contempla productos y actividades relacionados con:
+
+a) Diseño de bases de conocimiento
+
+b) Trazas de inferencia
+
+c) Sistema experto
+
+d) Ontología o grafo pequeño
+
+e) Seminario
+
+f) Revisión entre pares
+
+El producto global de la unidad se orienta a un **sistema simbólico documentado, una ontología o grafo de conocimiento y un reporte técnico**.
 
 ---
 
 ## Navegación
 
-- [← Volver a la Unidad 3](../README.md)
-- [← Subtema 3.4: Razonamiento no monótono e incierto](../3.4-razonamiento-no-monotono-e-incierto/README.md)
+- [← Volver al repositorio principal](../README.md)
+- [Ir al subtema 3.1 →](./3.1-logica-proposicional-y-logica-de-primer-orden/README.md)
+- [Ir al subtema 3.2 →](./3.2-redes-semanticas-marcos-ontologias/README.md)
+- [Ir al subtema 3.3 →](./3.3-sistemas-de-inferencia/README.md)
+- [Ir al subtema 3.4 →](./3.4-razonamiento-no-monotono-e-incierto/README.md)
+- [Ir al subtema 3.5 →](./3.5-ontologias-web-semantica-grafos-conocimiento/README.md)
